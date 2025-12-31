@@ -64,6 +64,27 @@ ssh-add -D
 ssh -i ~/.ssh/id_ed25519_arktosmos -T git@github.com
 ```
 
+### Creating a Release
+
+CI builds only trigger when a new release is published. To create a release and trigger a build:
+
+#### Option 1: Create a release via GitHub CLI
+
+```bash
+# Create a release (triggers the build workflow)
+gh release create v1.0.0 --title "Pokemon Cristall v1.0.0" --notes "Release notes here"
+```
+
+#### Option 2: Create a release via GitHub web interface
+
+1. Go to the repository on GitHub
+2. Click "Releases" → "Create a new release"
+3. Create a new tag (e.g., `v1.0.0`)
+4. Fill in the release title and notes
+5. Click "Publish release"
+
+The workflow will automatically build the ROM and attach it to the release.
+
 ---
 
 This is a Catalan translation of Pokemon Crystal (pokecrystal disassembly).
