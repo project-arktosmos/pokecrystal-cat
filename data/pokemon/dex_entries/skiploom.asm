@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
+	db "COTÓ HERBA@" ; species name
 	dw 200, 20 ; height, weight
 
-	db   "As soon as it"
-	next "rains, it closes"
-	next "its flower and"
+	db   "Quan plou, tanca"
+	next "la seva flor i"
+	next "s'amaga a l'ombra"
 
-	page "hides in the shade"
-	next "of a tree to avoid"
-	next "getting wet.@"
+	page "d'un arbre per"
+	next "evitar"
+	next "mullar-se.@"

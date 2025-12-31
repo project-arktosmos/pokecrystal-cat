@@ -1,10 +1,11 @@
-	db "STRINGSPIT@" ; species name
+	db "ESCUPIFIL@" ; species name
 	dw 108, 190 ; height, weight
 
-	db   "If prey becomes"
-	next "ensnared in its"
-	next "nest of spun"
+	db   "Si la presa queda"
+	next "atrapada al seu"
+	next "niu de fils,"
+	next "espera"
 
-	page "string, it waits"
-	next "motionlessly until"
-	next "it becomes dark.@"
+	page "immòbil fins que"
+	next "es fa"
+	next "fosc.@"

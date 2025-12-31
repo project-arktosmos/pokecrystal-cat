@@ -1,10 +1,11 @@
 	db "HIBERNANT@" ; species name
 	dw 511, 2770 ; height, weight
 
-	db   "Although it has a"
-	next "large body, it is"
-	next "quite skilled at"
+	db   "Tot i tenir un cos"
+	next "gran, és molt"
+	next "hàbil"
+	next "pujant arbres."
 
-	page "climbing trees. It"
-	next "eats and sleeps in"
-	next "the treetops.@"
+	page "Menja i dorm a les"
+	next "copes dels"
+	next "arbres.@"

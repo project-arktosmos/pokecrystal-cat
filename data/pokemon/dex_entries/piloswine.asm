@@ -1,10 +1,11 @@
-	db "SWINE@" ; species name
+	db "PORC@" ; species name
 	dw 307, 1230 ; height, weight
 
-	db   "Although its legs"
-	next "are short, its"
-	next "rugged hooves"
+	db "Tot i que les"
+	next "cames"
+	next "són curtes, les"
+	next "peülles robustes"
 
-	page "prevent it from"
-	next "slipping, even on"
-	next "icy ground.@"
+	page "eviten que rellisqui"
+	next "fins i tot sobre"
+	next "terra gelada.@"

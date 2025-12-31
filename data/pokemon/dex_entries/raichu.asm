@@ -1,10 +1,11 @@
-	db "MOUSE@" ; species name
+	db "RATOLÍ@" ; species name
 	dw 207, 660 ; height, weight
 
-	db   "If its electric"
-	next "pouches run empty,"
-	next "it raises its tail"
+	db   "Si les bosses"
+	next "elèctriques queden"
+	next "buides, alça la"
+	next "cua"
 
-	page "to gather electri-"
-	next "city from the"
-	next "atmosphere.@"
+	page "per recollir"
+	next "electricitat de"
+	next "l'atmosfera.@"

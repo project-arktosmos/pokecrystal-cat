@@ -1,10 +1,12 @@
-	db "FLYCATCHER@" ; species name
+	db "PAPAMOSQUES@" ; species name
 	dw 507, 340 ; height, weight
 
-	db   "Once ingested into"
-	next "this #MON's"
-	next "body, even the"
+	db "Un cop ingerit"
+	next "dins"
+	next "el cos d'aquest"
+	next "#MON, fins i"
+	next "tot"
 
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
+	page "l'objecte més dur"
+	next "es fondrà"
+	next "completament.@"

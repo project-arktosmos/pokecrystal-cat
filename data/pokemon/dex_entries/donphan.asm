@@ -1,10 +1,11 @@
-	db "ARMOR@" ; species name
+	db "ARMADURA@" ; species name
 	dw 307, 2650 ; height, weight
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
+	db   "Com que la pell"
+	next "d'aquest Pokémon"
+	next "és"
+	next "tan dura, un atac"
 
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
+	page "normal ni tan sols"
+	next "li deixa cap"
+	next "rascada.@"

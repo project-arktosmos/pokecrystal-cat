@@ -1,10 +1,10 @@
-	db "MAGNET@" ; species name
+	db "IMANT@" ; species name
 	dw 100, 130 ; height, weight
 
-	db   "The electricity"
-	next "emitted by the"
-	next "units on each side"
+	db   "L'electricitat"
+	next "emesa per les"
+	next "unitats laterals"
 
-	page "of its body cause"
-	next "it to become a"
-	next "strong magnet.@"
+	page "del seu cos el"
+	next "converteix en un"
+	next "imant potent.@"

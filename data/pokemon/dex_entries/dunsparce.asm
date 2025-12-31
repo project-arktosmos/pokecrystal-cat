@@ -1,10 +1,10 @@
-	db "LAND SNAKE@" ; species name
+	db "SERP TERRA@" ; species name
 	dw 411, 310 ; height, weight
 
-	db   "It hides deep"
-	next "inside caves where"
-	next "no light ever"
+	db   "S'amaga al fons"
+	next "de coves on mai no"
+	next "arriba la llum i"
 
-	page "reaches it and"
-	next "remains virtually"
-	next "motionless there.@"
+	page "hi roman pràctica-"
+	next "ment"
+	next "immòbil.@"

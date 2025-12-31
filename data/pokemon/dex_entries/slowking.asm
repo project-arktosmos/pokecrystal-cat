@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
+	db "REIAL@" ; species name
 	dw 607, 1750 ; height, weight
 
-	db   "Every time it ya-"
-	next "wns, SHELLDER"
-	next "injects more poi-"
+	db   "Cada cop que bada-"
+	next "lla, Shellder li"
+	next "injecta més verí."
 
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	page "El verí el fa"
+	next "més"
+	next "intel·ligent.@"

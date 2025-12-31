@@ -1,10 +1,11 @@
-	db "COCONUT@" ; species name
+	db "COCO@" ; species name
 	dw 607, 2650 ; height, weight
 
-	db   "Living in a good"
-	next "environment makes"
-	next "it grow lots of"
+	db   "Viure en un bon"
+	next "entorn li fa"
+	next "créixer molts"
+	next "caps."
 
-	page "heads. A head that"
-	next "drops off becomes"
-	next "an EXEGGCUTE.@"
+	page "Un cap que cau es"
+	next "converteix en un"
+	next "EXEGGCUTE.@"

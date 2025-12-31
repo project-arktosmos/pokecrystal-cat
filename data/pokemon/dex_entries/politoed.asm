@@ -1,10 +1,10 @@
-	db "FROG@" ; species name
+	db "GRANOTA@" ; species name
 	dw 307, 750 ; height, weight
 
-	db   "When it expands"
-	next "its throat to"
-	next "croak out a tune,"
+	db   "Quan infla la gola"
+	next "per cantar, els"
+	next "Poliwag i"
+	next "Poliwhirl"
 
-	page "nearby POLIWAG and"
-	next "POLIWHIRL gather"
-	next "immediately.@"
+	page "propers s'ajunten"
+	next "immediatament.@"

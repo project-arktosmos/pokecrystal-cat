@@ -1,10 +1,11 @@
-	db "TINY BIRD@" ; species name
+	db "OCELLET@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
+	db   "Batega ràpidament"
+	next "les ales a"
+	next "l'herba,"
+	next "aixecant un núvol"
 
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
+	page "de pols que expulsa"
+	next "les preses insecte"
+	next "a camp obert.@"

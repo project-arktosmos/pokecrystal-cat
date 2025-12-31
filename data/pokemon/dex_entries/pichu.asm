@@ -1,10 +1,13 @@
-	db "TINY MOUSE@" ; species name
+	db "RATOLINET@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
+	db "No sap"
+	next "emmagatzemar"
+	next "electricitat."
+	next "Qual-"
+	next "sevol descàrrega"
+	next "el"
 
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"
+	page "fa alliberar"
+	next "energia de manera"
+	next "espontània.@"

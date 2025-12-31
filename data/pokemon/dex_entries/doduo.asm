@@ -1,10 +1,9 @@
-	db "TWIN BIRD@" ; species name
+	db "OCELL DOBLE@" ; species name
 	dw 407, 860 ; height, weight
 
-	db   "It lives on a"
-	next "grassy plain where"
-	next "it can see a long"
+	db   "Viu en planes"
+	next "herboses on pot"
+	next "veure a distància."
 
-	page "way. If it sees an"
-	next "enemy, it runs"
-	next "away at 60 mph.@"
+	page "Si veu un enemic,"
+	next "fuig a 100 km/h.@"

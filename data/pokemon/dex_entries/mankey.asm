@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
+	db "MICO PORC@" ; species name
 	dw 108, 620 ; height, weight
 
-	db   "It lives in groups"
-	next "in the treetops."
-	next "If it loses sight"
+	db   "Viu en grups a les"
+	next "capçades dels"
+	next "arbres. Si perd de"
 
-	page "of its group, it"
-	next "becomes infuriated"
-	next "by its loneliness.@"
+	page "vista el grup,"
+	next "s'enfurisma per"
+	next "la soledat.@"

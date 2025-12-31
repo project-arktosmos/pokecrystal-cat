@@ -1,10 +1,12 @@
-	db "THUNDER@" ; species name
+	db "TRO@" ; species name
 	dw 603, 3920 ; height, weight
 
-	db   "This rough #MON"
-	next "stores energy"
-	next "inside its body,"
+	db "Aquest Pokémon"
+	next "rude"
+	next "emmagatzema"
+	next "energia"
+	next "al cos i recorre"
+	next "la"
 
-	page "then sweeps across"
-	next "the land, shooting"
-	next "off electricity.@"
+	page "terra disparant"
+	next "electricitat.@"

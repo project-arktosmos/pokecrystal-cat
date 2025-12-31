@@ -1,10 +1,11 @@
 	db "BIVALVE@" ; species name
 	dw 100, 90 ; height, weight
 
-	db   "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
+	db   "Aferrar-se a un"
+	next "oponent exposa les"
+	next "parts vulnerables,"
 
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"
+	page "així que només usa"
+	next "aquest moviment"
+	next "com"
+	next "a últim recurs.@"

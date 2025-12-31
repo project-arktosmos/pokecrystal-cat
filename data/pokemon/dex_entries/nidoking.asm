@@ -1,10 +1,12 @@
-	db "DRILL@" ; species name
+	db "TREPANT@" ; species name
 	dw 407, 1370 ; height, weight
 
-	db   "It uses its thick"
-	next "arms, legs and"
-	next "tail to attack"
+	db   "Fa servir els seus"
+	next "braços, cames i"
+	next "cua"
+	next "gruixuts per"
+	next "atacar"
 
-	page "forcefully. Melee"
-	next "combat is its"
-	next "specialty.@"
+	page "amb força. El combat"
+	next "cos a cos és la"
+	next "seva especialitat.@"

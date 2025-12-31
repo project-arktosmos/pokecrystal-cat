@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
+	db "ELÈCTRIC@" ; species name
 	dw 503, 1160 ; height, weight
 
-	db   "Legendary bird"
-	next "#MON. They say"
-	next "lightning caused"
+	db   "#MON ocell"
+	next "llegendari. Es diu"
+	next "que els llamps"
 
-	page "by the flapping of"
-	next "its wings causes"
-	next "summer storms.@"
+	page "causats pel bateig"
+	next "de les ales causen"
+	next "tempestes d'estiu.@"

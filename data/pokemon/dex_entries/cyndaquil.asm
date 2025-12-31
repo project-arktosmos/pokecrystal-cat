@@ -1,10 +1,10 @@
-	db "FIRE MOUSE@" ; species name
+	db "RATOLÍ FOC@" ; species name
 	dw 108, 170 ; height, weight
 
-	db   "The fire that"
-	next "spouts from its"
-	next "back burns hottest"
+	db   "El foc que brolla"
+	next "de l'esquena crema"
+	next "més quan s'enfada."
 
-	page "when it is angry."
-	next "The flaring flames"
-	next "intimidate foes.@"
+	page "Les flames vives"
+	next "intimiden els"
+	next "enemics.@"

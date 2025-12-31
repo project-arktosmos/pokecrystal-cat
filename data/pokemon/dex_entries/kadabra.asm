@@ -1,10 +1,11 @@
 	db "PSI@" ; species name
 	dw 403, 1250 ; height, weight
 
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
+	db   "Quan tanca els"
+	next "ulls, surten el"
+	next "doble de"
+	next "partícules"
 
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
+	page "alfa de la"
+	next "superfície del"
+	next "seu cos.@"

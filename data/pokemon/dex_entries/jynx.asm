@@ -1,10 +1,13 @@
-	db "HUMANSHAPE@" ; species name
+	db "HUMANOIDE@" ; species name
 	dw 407, 900 ; height, weight
 
-	db   "It has several"
-	next "different cry pat-"
-	next "terns, each of"
+	db "Té diversos"
+	next "patrons"
+	next "de crits"
+	next "diferents,"
+	next "cadascun dels"
+	next "quals"
 
-	page "which seems to"
-	next "have its own"
-	next "meaning.@"
+	page "sembla tenir el"
+	next "seu propi"
+	next "significat.@"

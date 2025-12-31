@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
+	db "CONGELACIÓ@" ; species name
 	dw 507, 1220 ; height, weight
 
-	db   "Legendary bird"
-	next "#MON. As it"
-	next "flies through the"
+	db   "#MON ocell"
+	next "llegendari. Mentre"
+	next "vola pel cel,"
 
-	page "sky, it cools the"
-	next "air, causing snow"
-	next "to fall.@"
+	page "refreda l'aire,"
+	next "fent que"
+	next "nevi.@"

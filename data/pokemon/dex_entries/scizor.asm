@@ -1,10 +1,12 @@
-	db "SCISSORS@" ; species name
+	db "TISORES@" ; species name
 	dw 511, 2600 ; height, weight
 
-	db   "This #MON's"
-	next "pincers, which"
-	next "contain steel, can"
+	db "Les pinces"
+	next "d'aquest"
+	next "Pokémon, que"
+	next "conte-"
+	next "nen acer, poden"
 
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits.@"
+	page "esclafar qualsevol"
+	next "objecte dur que"
+	next "agafen a trossos.@"

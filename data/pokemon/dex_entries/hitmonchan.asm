@@ -1,10 +1,9 @@
-	db "PUNCHING@" ; species name
+	db "COP DE PUNY@" ; species name
 	dw 407, 1110 ; height, weight
 
-	db   "To increase the"
-	next "strength of all"
-	next "its punch moves,"
+	db   "Per augmentar la"
+	next "força dels cops,"
+	next "gira els braços"
 
-	page "it spins its arms"
-	next "just before making"
-	next "contact.@"
+	page "just abans de fer"
+	next "contacte.@"

@@ -1,10 +1,10 @@
-	db "SHARP CLAW@" ; species name
+	db "URPA AFILADA@" ; species name
 	dw 211, 620 ; height, weight
 
-	db   "This cunning"
-	next "#MON hides"
-	next "under the cover"
+	db   "Aquest Pokémon"
+	next "astut s'amaga sota"
+	next "el mantell de la"
 
-	page "of darkness,"
-	next "waiting to attack"
-	next "its prey.@"
+	page "foscor, esperant"
+	next "per atacar la"
+	next "seva presa.@"

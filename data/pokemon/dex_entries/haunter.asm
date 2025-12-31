@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
 	dw 503, 2 ; height, weight
 
-	db   "It hides in the"
-	next "dark, planning to"
-	next "take the life of"
+	db   "S'amaga a la"
+	next "foscor, planejant"
+	next "prendre la vida"
+	next "del"
 
-	page "the next living"
-	next "thing that wanders"
-	next "close by.@"
+	page "pròxim ésser viu"
+	next "que s'acosti.@"

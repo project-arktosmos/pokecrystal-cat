@@ -1,10 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "COTÓ HERBA@" ; species name
 	dw 104, 10 ; height, weight
 
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
+	db "Fins i tot la"
+	next "brisa"
+	next "més suau el pot"
+	next "endur. Pot flotar"
 
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	page "fins al poble"
+	next "del"
+	next "costat.@"

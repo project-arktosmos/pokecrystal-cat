@@ -1,10 +1,11 @@
-	db "TRIPLEBIRD@" ; species name
+	db "OCELL TRIPLE@" ; species name
 	dw 511, 1880 ; height, weight
 
-	db   "An enemy that"
-	next "takes its eyes off"
-	next "any of the three"
+	db "Un enemic que"
+	next "deixi"
+	next "de mirar qualsevol"
+	next "dels tres caps, ni"
 
-	page "heads--even for a"
-	next "second--will get"
-	next "pecked severely.@"
+	page "que sigui un segon,"
+	next "rebrà becades"
+	next "severes.@"

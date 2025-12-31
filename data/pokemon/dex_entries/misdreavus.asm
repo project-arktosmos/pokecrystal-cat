@@ -1,10 +1,10 @@
-	db "SCREECH@" ; species name
+	db "XISCLE@" ; species name
 	dw 204, 20 ; height, weight
 
-	db   "It loves to watch"
-	next "people it's scar-"
-	next "ed. It frightens"
+	db   "Li encanta mirar"
+	next "la gent que ha"
+	next "espantat. L'espa-"
 
-	page "them by screaming"
-	next "loudly or appear-"
-	next "ing suddenly.@"
+	page "nta cridant fort"
+	next "o apareixent de"
+	next "sobte.@"

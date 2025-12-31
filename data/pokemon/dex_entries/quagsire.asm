@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
+	db "PEIX AIGUA@" ; species name
 	dw 407, 1650 ; height, weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "El seu cos sempre"
+	next "és llefiscós. Sol"
+	next "copejar el cap al"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "fons del riu quan"
+	next "neda, però sembla"
+	next "que no li importa.@"

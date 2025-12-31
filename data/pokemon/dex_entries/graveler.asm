@@ -1,10 +1,11 @@
-	db "ROCK@" ; species name
+	db "ROCA@" ; species name
 	dw 303, 2320 ; height, weight
 
-	db   "It travels by rol-"
-	next "ling on mountain"
-	next "paths. If it gains"
+	db   "Viatja rodant per"
+	next "camins de"
+	next "muntanya."
+	next "Si agafa massa"
 
-	page "too much speed, it"
-	next "stops by running"
-	next "into huge rocks.@"
+	page "velocitat, s'atura"
+	next "xocant contra"
+	next "roques enormes.@"

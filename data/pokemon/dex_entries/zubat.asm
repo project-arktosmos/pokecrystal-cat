@@ -1,10 +1,9 @@
-	db "BAT@" ; species name
+	db "RAT PENAT@" ; species name
 	dw 207, 170 ; height, weight
 
-	db   "During the day, it"
-	next "gathers with"
-	next "others and hangs"
+	db   "De dia, s'agrupa"
+	next "amb altres i penja"
+	next "dels sostres"
 
-	page "from the ceilings"
-	next "of old buildings"
-	next "and caves.@"
+	page "d'edificis vells"
+	next "i coves.@"

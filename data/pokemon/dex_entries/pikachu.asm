@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
+	db "RATOLÍ@" ; species name
 	dw 104, 130 ; height, weight
 
-	db   "When it is anger-"
-	next "ed, it immediately"
-	next "discharges the"
+	db   "Quan s'enfada,"
+	next "descarrega"
+	next "immediatament"
 
-	page "energy stored in"
-	next "the pouches in its"
-	next "cheeks.@"
+	page "l'energia que té"
+	next "emmagatzemada a"
+	next "les galtes.@"

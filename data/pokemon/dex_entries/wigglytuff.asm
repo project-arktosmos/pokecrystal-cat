@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
+	db "GLOBUS@" ; species name
 	dw 303, 260 ; height, weight
 
-	db   "The rich, fluffy"
-	next "fur that covers"
-	next "its body feels so"
+	db   "El pelatge ric i"
+	next "esponjós que li"
+	next "cobreix el cos és"
 
-	page "good that anyone"
-	next "who feels it can't"
-	next "stop touching it.@"
+	page "tan agradable que"
+	next "qui el toca no pot"
+	next "parar.@"

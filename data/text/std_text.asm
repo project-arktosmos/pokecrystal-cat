@@ -1,132 +1,134 @@
 NurseMornText:
-	text "Good morning!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Bon dia!"
+	line "Benvingut al"
+	cont "CENTRE #MON."
 	done
 
 NurseDayText:
-	text "Hello!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Hola!"
+	line "Benvingut al"
+	cont "CENTRE #MON."
 	done
 
 NurseNiteText:
-	text "Good evening!"
-	line "You're out late."
+	text "Bona nit!"
+	line "Ets aquí tard."
 
-	para "Welcome to our"
-	line "#MON CENTER."
+	para "Benvingut al"
+	line "CENTRE #MON."
 	done
 
 PokeComNurseMornText:
-	text "Good morning!"
+	text "Bon dia!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Això és el CENTRE"
+	line "de COMUNICACIÓ"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "#MON--o el"
+	line "CENTRE #COM."
 	done
 
 PokeComNurseDayText:
-	text "Hello!"
+	text "Hola!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Això és el CENTRE"
+	line "de COMUNICACIÓ"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "#MON--o el"
+	line "CENTRE #COM."
 	done
 
 PokeComNurseNiteText:
-	text "Good to see you"
-	line "working so late."
+	text "Quin goig veure't"
+	line "treballant tard."
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Això és el CENTRE"
+	line "de COMUNICACIÓ"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "#MON--o el"
+	line "CENTRE #COM."
 	done
 
 NurseAskHealText:
-	text "We can heal your"
-	line "#MON to perfect"
-	cont "health."
+	text "Podem curar els"
+	line "teus #MON"
+	cont "completament."
 
-	para "Shall we heal your"
-	line "#MON?"
+	para "Vols que curem"
+	line "els teus #MON?"
 	done
 
 NurseTakePokemonText:
-	text "OK, may I see your"
-	line "#MON?"
+	text "D'acord, puc veure"
+	line "els teus #MON?"
 	done
 
 NurseReturnPokemonText:
-	text "Thank you for"
-	line "waiting."
+	text "Gràcies per"
+	line "esperar."
 
-	para "Your #MON are"
-	line "fully healed."
+	para "Els teus #MON"
+	line "estan curats."
 	done
 
 NurseGoodbyeText:
-	text "We hope to see you"
-	line "again."
+	text "Esperem veure't"
+	line "de nou."
 	done
 
 ; not used
-	text "We hope to see you"
-	line "again."
+	text "Esperem veure't"
+	line "de nou."
 	done
 
 NursePokerusText:
-	text "Your #MON"
-	line "appear to be"
+	text "Els teus #MON"
+	line "semblen estar"
 
-	para "infected by tiny"
-	line "life forms."
+	para "infectats per"
+	line "petites formes"
+	cont "de vida."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Els teus #MON"
+	line "estan sans i"
+	cont "semblen bé."
 
-	para "But we can't tell"
-	line "you anything more"
+	para "Però no podem"
+	line "dir-te res més"
 
-	para "at a #MON"
-	line "CENTER."
+	para "en un CENTRE"
+	line "#MON."
 	done
 
 PokeComNursePokerusText:
-	text "Your #MON"
-	line "appear to be"
+	text "Els teus #MON"
+	line "semblen estar"
 
-	para "infected by tiny"
-	line "life forms."
+	para "infectats per"
+	line "petites formes"
+	cont "de vida."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Els teus #MON"
+	line "estan sans i"
+	cont "semblen bé."
 
-	para "But we can't tell"
-	line "you anything more."
+	para "Però no podem"
+	line "dir-te res més."
 	done
 
 DifficultBookshelfText:
-	text "It's full of"
-	line "difficult books."
+	text "Està ple de"
+	line "llibres difícils."
 	done
 
 PictureBookshelfText:
-	text "A whole collection"
-	line "of #MON picture"
-	cont "books!"
+	text "Una col·lecció"
+	line "d'àlbums d'imatges"
+	cont "de #MON!"
 	done
 
 MagazineBookshelfText:
-	text "#MON magazines…"
+	text "Revistes #MON…"
 	line "#MON PAL,"
 
 	para "#MON HANDBOOK,"
@@ -134,255 +136,266 @@ MagazineBookshelfText:
 	done
 
 TeamRocketOathText:
-	text "TEAM ROCKET OATH"
+	text "JURAMENT ROCKET"
 
-	para "Steal #MON for"
-	line "profit!"
+	para "Robar #MON per"
+	line "benefici!"
 
-	para "Exploit #MON"
-	line "for profit!"
+	para "Explotar #MON"
+	line "per benefici!"
 
-	para "All #MON exist"
-	line "for the glory of"
-	cont "TEAM ROCKET!"
+	para "Tots els #MON"
+	line "existeixen per la"
+	cont "glòria del TEAM"
+	cont "ROCKET!"
 	done
 
 IncenseBurnerText:
-	text "What is this?"
+	text "Què és això?"
 
-	para "Oh, it's an"
-	line "incense burner!"
+	para "Oh, és un"
+	line "cremador d'encens!"
 	done
 
 MerchandiseShelfText:
-	text "Lots of #MON"
-	line "merchandise!"
+	text "Molt de"
+	line "marxandatge"
+	cont "#MON!"
 	done
 
 LookTownMapText:
-	text "It's the TOWN MAP."
+	text "És el MAPA CIUTAT."
 	done
 
 WindowText:
-	text "My reflection!"
-	line "Lookin' good!"
+	text "El meu reflex!"
+	line "Estic bé!"
 	done
 
 TVText:
-	text "It's a TV."
+	text "És una TV."
 	done
 
 HomepageText:
-	text "#MON JOURNAL"
-	line "HOME PAGE…"
+	text "PÀGINA WEB del"
+	line "DIARI #MON…"
 
-	para "It hasn't been"
-	line "updated…"
+	para "No s'ha"
+	line "actualitzat…"
 	done
 
 ; not used
-	text "#MON RADIO!"
+	text "RÀDIO #MON!"
 
-	para "Call in with your"
-	line "requests now!"
+	para "Truca ara amb"
+	line "les teves"
+	cont "peticions!"
 	done
 
 TrashCanText:
-	text "There's nothing in"
-	line "here…"
+	text "No hi ha res"
+	line "aquí dins…"
 	done
 
 ; not used
-	text "A #MON may be"
-	line "able to move this."
+	text "Potser un #MON"
+	line "podria moure això."
 	done
 
 ; not used
-	text "Maybe a #MON"
-	line "can break this."
+	text "Potser un #MON"
+	line "pot trencar això."
 	done
 
 PokecenterSignText:
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Cura els #MON!"
+	line "CENTRE #MON"
 	done
 
 MartSignText:
-	text "For All Your"
-	line "#MON Needs"
+	text "Per a totes les"
+	line "necessitats"
+	cont "#MON"
 
-	para "#MON MART"
+	para "BOTIGA #MON"
 	done
 
 ContestResults_ReadyToJudgeText:
-	text "We will now judge"
-	line "the #MON you've"
-	cont "caught."
+	text "Ara jutjarem els"
+	line "#MON que has"
+	cont "atrapat."
 
 	para "<……>"
 	line "<……>"
 
-	para "We have chosen the"
-	line "winners!"
+	para "Hem escollit els"
+	line "guanyadors!"
 
-	para "Are you ready for"
-	line "this?"
+	para "Estàs preparat"
+	line "per això?"
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>, the No.@"
+	text "<PLAYER>, el No.@"
 	text_ram wStringBuffer3
 	text_start
-	line "finisher, wins"
+	line "finalista, guanya"
 	cont "@"
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 ReceivedItemText:
-	text "<PLAYER> received"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 ContestResults_JoinUsNextTimeText:
-	text "Please join us for"
-	line "the next Contest!"
+	text "Uneix-te al pròxim"
+	line "Concurs!"
 	done
 
 ContestResults_ConsolationPrizeText:
-	text "Everyone else gets"
-	line "a BERRY as a con-"
-	cont "solation prize!"
+	text "Tots els altres"
+	line "reben una BAIA com"
+	cont "a premi de consol!"
 	done
 
 ContestResults_DidNotWinText:
-	text "We hope you do"
-	line "better next time."
+	text "Esperem que ho"
+	line "facis millor."
 	done
 
 ContestResults_ReturnPartyText:
-	text "We'll return the"
-	line "#MON we kept"
+	text "Et tornarem els"
+	line "#MON que hem"
 
-	para "for you."
-	line "Here you go!"
+	para "guardat."
+	line "Aquí els tens!"
 	done
 
 ContestResults_PartyFullText:
-	text "Your party's full,"
-	line "so the #MON was"
+	text "El teu equip és"
+	line "ple, així que el"
 
-	para "sent to your BOX"
-	line "in BILL's PC."
+	para "#MON s'ha"
+	line "enviat"
+	cont "a la CAIXA del PC"
+	cont "d'en BILL."
 	done
 
 GymStatue_CityGymText:
 	text_ram wStringBuffer3
 	text_start
-	line "#MON GYM"
+	line "GIMNÀS #MON"
 	done
 
 GymStatue_WinningTrainersText:
-	text "LEADER: @"
+	text "LÍDER: @"
 	text_ram wStringBuffer4
 	text_start
-	para "WINNING TRAINERS:"
-	line "<PLAYER>"
+	para "ENTREN."
+	line "GUANYADORS:"
+	cont "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:
-	text "Welcome to the"
-	line "GAME CORNER."
+	text "Benvingut al"
+	line "SALÓ RECREATIU."
 	done
 
 CoinVendor_NoCoinCaseText:
-	text "Do you need game"
-	line "coins?"
+	text "Necessites fitxes"
+	line "de joc?"
 
-	para "Oh, you don't have"
-	line "a COIN CASE for"
-	cont "your coins."
+	para "Oh, no tens"
+	line "un MONEDER per"
+	cont "les fitxes."
 	done
 
 CoinVendor_IntroText:
-	text "Do you need some"
-	line "game coins?"
+	text "Necessites fitxes"
+	line "de joc?"
 
-	para "It costs ¥1000 for"
-	line "50 coins. Do you"
-	cont "want some?"
+	para "Costa ¥1000 per"
+	line "50 fitxes. En"
+	cont "vols?"
 	done
 
 CoinVendor_Buy50CoinsText:
-	text "Thank you!"
-	line "Here are 50 coins."
+	text "Gràcies!"
+	line "Aquí tens 50"
+	cont "fitxes."
 	done
 
 CoinVendor_Buy500CoinsText:
-	text "Thank you! Here"
-	line "are 500 coins."
+	text "Gràcies! Aquí"
+	line "tens 500 fitxes."
 	done
 
 CoinVendor_NotEnoughMoneyText:
-	text "You don't have"
-	line "enough money."
+	text "No tens prou"
+	line "diners."
 	done
 
 CoinVendor_CoinCaseFullText:
-	text "Whoops! Your COIN"
-	line "CASE is full."
+	text "Ui! El teu MONEDER"
+	line "és ple."
 	done
 
 CoinVendor_CancelText:
-	text "No coins for you?"
-	line "Come again!"
+	text "No vols fitxes?"
+	line "Torna quan"
+	cont "vulguis!"
 	done
 
 BugContestPrizeNoRoomText:
-	text "Oh? Your PACK is"
-	line "full."
+	text "Oh? La teva MOTXI-"
+	line "LLA és plena."
 
-	para "We'll keep this"
-	line "for you today, so"
+	para "Guardarem això"
+	line "per tu avui, així"
 
-	para "come back when you"
-	line "make room for it."
+	para "que torna quan"
+	line "tinguis espai."
 	done
 
 HappinessText3:
-	text "Wow! You and your"
-	line "#MON are really"
-	cont "close!"
+	text "Uau! Tu i el teu"
+	line "#MON sou molt"
+	cont "propers!"
 	done
 
 HappinessText2:
-	text "#MON get more"
-	line "friendly if you"
+	text "Els #MON es fan"
+	line "més amistosos si"
 
-	para "spend time with"
-	line "them."
+	para "passes temps amb"
+	line "ells."
 	done
 
 HappinessText1:
-	text "You haven't tamed"
-	line "your #MON."
+	text "No has domesticat"
+	line "el teu #MON."
 
-	para "If you aren't"
-	line "nice, it'll pout."
+	para "Si no ets amable,"
+	line "s'enfadarà."
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> registered"
-	line "@"
+	text "<PLAYER> ha"
+	line "registrat"
+	cont "el número d'"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> registered"
-	line "@"
+	text "<PLAYER> ha"
+	line "registrat"
+	cont "el número d'"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "."
 	done

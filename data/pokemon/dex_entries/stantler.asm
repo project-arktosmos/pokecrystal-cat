@@ -1,10 +1,10 @@
-	db "BIG HORN@" ; species name
+	db "BANYA GRAN@" ; species name
 	dw 407, 1570 ; height, weight
 
-	db   "The round balls"
-	next "found on the"
-	next "fallen antlers can"
+	db   "Les boles rodones"
+	next "de les banyes que"
+	next "li cauen es poden"
 
-	page "be ground into a"
-	next "powder that aids"
-	next "in sleeping.@"
+	page "moldre en una pols"
+	next "que ajuda a"
+	next "dormir.@"

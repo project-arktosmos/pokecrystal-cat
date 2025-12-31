@@ -1,10 +1,11 @@
-	db "ANGLER@" ; species name
+	db "PESCADOR@" ; species name
 	dw 108, 260 ; height, weight
 
-	db   "Its antennae, whi-"
-	next "ch evolved from a"
-	next "fin, have both po-"
+	db   "Les seves antenes,"
+	next "que van"
+	next "evolucionar"
+	next "d'una aleta, tenen"
 
-	page "sitive and neg-"
-	next "ative charges flo-"
-	next "wing through them.@"
+	page "càrregues positives"
+	next "i negatives que"
+	next "hi flueixen.@"

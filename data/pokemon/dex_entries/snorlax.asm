@@ -1,10 +1,11 @@
-	db "SLEEPING@" ; species name
+	db "DORMILEGA@" ; species name
 	dw 611, 10140 ; height, weight
 
-	db   "This #MON's"
-	next "stomach is so"
-	next "strong, even"
+	db   "L'estómac d'aquest"
+	next "#MON és tan"
+	next "fort"
+	next "que ni menjant"
 
-	page "eating moldy or"
-	next "rotten food will"
-	next "not affect it.@"
+	page "menjar florit o"
+	next "podrit"
+	next "l'afectarà.@"

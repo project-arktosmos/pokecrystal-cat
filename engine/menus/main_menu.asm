@@ -65,12 +65,12 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
-	db "MOBILE@"
-	db "MOBILE STUDIUM@"
+	db "CONTINUAR@"
+	db "PARTIDA NOVA@"
+	db "OPCIONS@"
+	db "REGAL MISTERI@"
+	db "MÒBIL@"
+	db "ESTADI MÒBIL@"
 if DEF(_DEBUG)
 	db "DEBUG ROOM@"
 endc
@@ -326,7 +326,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "HORA NO POSADA@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
@@ -348,15 +348,15 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "DIUMEN@"
+	db "DILLUN@"
+	db "DIMART@"
+	db "DIMECR@"
+	db "DIJOU@"
+	db "DIVENDR@"
+	db "DISSABT@"
 .Day:
-	db "DAY@"
+	db "E@"
 
 ClearTilemapEtc:
 	xor a

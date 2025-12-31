@@ -1,10 +1,10 @@
-	db "ROCK SKIN@" ; species name
+	db "PELL ROCA@" ; species name
 	dw 200, 1590 ; height, weight
 
-	db   "Born deep under-"
-	next "ground, this"
-	next "#MON becomes a"
+	db   "Nascut sota terra,"
+	next "aquest Pokémon es"
+	next "converteix en pupa"
 
-	page "pupa after eating"
-	next "enough dirt to"
-	next "make a mountain.@"
+	page "després de menjar"
+	next "prou terra per fer"
+	next "una muntanya.@"

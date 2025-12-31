@@ -1,10 +1,11 @@
-	db "JET@" ; species name
+	db "RAIG@" ; species name
 	dw 200, 260 ; height, weight
 
-	db   "To escape from an"
-	next "attacker, it may"
-	next "shoot water out of"
+	db   "Per escapar d'un"
+	next "atacant, pot"
+	next "dispa-"
+	next "rar aigua per la"
 
-	page "its mouth, then"
-	next "use that force to"
-	next "swim backward.@"
+	page "boca i usar la"
+	next "força per nedar"
+	next "cap enrere.@"

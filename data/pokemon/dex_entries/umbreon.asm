@@ -1,10 +1,10 @@
-	db "MOONLIGHT@" ; species name
+	db "LLUM DE LLUNA@" ; species name
 	dw 303, 600 ; height, weight
 
-	db   "On the night of a"
-	next "full moon, or when"
-	next "it gets excited,"
+	db   "La nit de lluna"
+	next "plena, o quan s'e-"
+	next "mociona, els pa-"
 
-	page "the ring patterns"
-	next "on its body glow"
-	next "yellow.@"
+	page "trons d'anells del"
+	next "seu cos brillen de"
+	next "color groc.@"

@@ -1,10 +1,10 @@
-	db "PAINTER@" ; species name
+	db "PINTOR@" ; species name
 	dw 311, 1280 ; height, weight
 
-	db   "The color of the"
-	next "mysterious fluid"
-	next "secreted from its"
+	db   "El color del fluid"
+	next "misteriós secretat"
+	next "de la seva cua és"
 
-	page "tail is predeter-"
-	next "mined for each"
-	next "SMEARGLE.@"
+	page "predeterminat per"
+	next "a cada"
+	next "Smeargle.@"

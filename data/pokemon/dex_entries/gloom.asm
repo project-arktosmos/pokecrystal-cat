@@ -1,10 +1,11 @@
-	db "WEED@" ; species name
+	db "HERBA@" ; species name
 	dw 207, 190 ; height, weight
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
+	db   "La pudor del xarop"
+	next "viscós i el pollen"
+	next "dels seus pètals"
+	next "és"
 
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	page "tan dolenta que pot"
+	next "fer desmaiar els"
+	next "oponents.@"

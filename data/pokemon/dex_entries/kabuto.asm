@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
+	db "MARISC@" ; species name
 	dw 108, 250 ; height, weight
 
-	db   "Three hundred"
-	next "million years ago,"
-	next "it hid on the sea"
+	db   "Fa 300 milions"
+	next "d'anys, s'amagava"
+	next "al fons del mar."
 
-	page "floor. It also has"
-	next "eyes on its back"
-	next "that glow.@"
+	page "També té ulls a"
+	next "l'esquena que"
+	next "brillen.@"

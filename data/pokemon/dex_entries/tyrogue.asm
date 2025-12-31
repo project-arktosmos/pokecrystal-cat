@@ -1,10 +1,10 @@
-	db "SCUFFLE@" ; species name
+	db "BARALLES@" ; species name
 	dw 204, 460 ; height, weight
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
+	db   "Per millorar les"
+	next "habilitats de"
+	next "lluita, desafia a"
 
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	page "qualsevol. Té un"
+	next "esperit competitiu"
+	next "molt fort.@"

@@ -1,10 +1,11 @@
-	db "STARSHAPE@" ; species name
+	db "ESTEL·LAT@" ; species name
 	dw 207, 760 ; height, weight
 
-	db   "When the stars"
-	next "twinkle at night,"
-	next "it floats up from"
+	db   "Quan les estrelles"
+	next "brillen de nit,"
+	next "puja des del fons"
 
-	page "the sea floor, and"
-	next "its body's center"
-	next "core flickers.@"
+	page "del mar, i el nucli"
+	next "central del seu"
+	next "cos"
+	next "centeleja.@"

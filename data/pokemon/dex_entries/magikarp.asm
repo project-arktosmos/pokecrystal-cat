@@ -1,10 +1,11 @@
-	db "FISH@" ; species name
+	db "PEIX@" ; species name
 	dw 211, 220 ; height, weight
 
-	db   "This weak and"
-	next "pathetic #MON"
-	next "gets easily pushed"
+	db "Aquest #MON"
+	next "feble"
+	next "i patètic és"
+	next "arrossegat pels"
 
-	page "along rivers when"
-	next "there are strong"
-	next "currents.@"
+	page "rius quan hi ha"
+	next "corrents"
+	next "forts.@"

@@ -1,10 +1,10 @@
-	db "WOOL@" ; species name
+	db "LLANA@" ; species name
 	dw 200, 170 ; height, weight
 
-	db   "It stores lots of"
-	next "air in its soft"
-	next "fur, allowing it"
+	db   "Emmagatzema aire"
+	next "en el seu pelatge"
+	next "suau, cosa que li"
 
-	page "to stay cool in"
-	next "summer and warm"
-	next "in winter.@"
+	page "permet estar fresc"
+	next "a l'estiu i calent"
+	next "a l'hivern.@"

@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
+	db "MANDÍBULA@" ; species name
 	dw 200, 210 ; height, weight
 
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
+	db   "Aquesta criatura"
+	next "aspra mossega"
+	next "qualsevol objecte"
 
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+	page "que es mou. No es"
+	next "recomana girar-li"
+	next "l'esquena.@"

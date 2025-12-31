@@ -1,10 +1,10 @@
-	db "EGG@" ; species name
+	db "OU@" ; species name
 	dw 307, 760 ; height, weight
 
-	db   "People try to"
-	next "catch it for its"
-	next "extremely"
+	db   "La gent intenta"
+	next "atrapar-lo pels"
+	next "seus ous molt"
 
-	page "nutritious eggs,"
-	next "but it rarely can"
-	next "be found.@"
+	page "nutritius, però"
+	next "rarament es"
+	next "troba.@"

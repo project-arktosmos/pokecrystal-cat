@@ -1,10 +1,11 @@
-	db "BAGWORM@" ; species name
+	db "CUC BOSSA@" ; species name
 	dw 200, 160 ; height, weight
 
-	db   "It spits out a"
-	next "fluid that it uses"
-	next "to glue tree bark"
+	db   "Escup un fluid que"
+	next "fa servir per en-"
+	next "ganxar escorça al"
 
-	page "to its body. The"
-	next "fluid hardens when"
-	next "it touches air.@"
+	page "seu cos. El fluid"
+	next "s'endureix en"
+	next "contacte amb"
+	next "l'aire.@"

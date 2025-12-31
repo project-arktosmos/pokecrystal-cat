@@ -1,10 +1,11 @@
-	db "DIVING@" ; species name
+	db "BUSSEIG@" ; species name
 	dw 1701, 4760 ; height, weight
 
-	db   "It has an incred-"
-	next "ible ability to"
-	next "calm raging sto-"
+	db   "Té l'increïble"
+	next "capacitat de"
+	next "calmar"
+	next "tempestes. Es diu"
 
-	page "rms. It is said"
-	next "that LUGIA appears"
-	next "when storms start.@"
+	page "que Lugia apareix"
+	next "quan comencen les"
+	next "tempestes.@"

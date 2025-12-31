@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
+	db "VOLCÀ@" ; species name
 	dw 607, 4370 ; height, weight
 
-	db   "This brawny"
-	next "#MON courses"
-	next "around the earth,"
+	db   "Aquest Pokémon"
+	next "robust recorre la"
+	next "terra emetent"
 
-	page "spouting flames"
-	next "hotter than a"
-	next "volcano's magma.@"
+	page "flames més calentes"
+	next "que el magma d'un"
+	next "volcà.@"

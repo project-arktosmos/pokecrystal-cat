@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "DRAC@" ; species name
 	dw 311, 550 ; height, weight
 
-	db   "The male raises"
-	next "the young. If it"
-	next "is approached, it"
+	db   "El mascle cria els"
+	next "petits. Si algú"
+	next "s'hi acosta, fa"
 
-	page "uses its toxic"
-	next "spikes to fend off"
-	next "the intruder.@"
+	page "servir les punxes"
+	next "tòxiques per fer"
+	next "fora l'intrús.@"

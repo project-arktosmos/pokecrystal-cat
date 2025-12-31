@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
+	db "VOLCÀ@" ; species name
 	dw 211, 420 ; height, weight
 
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
+	db   "Abans de combatre,"
+	next "gira l'esquena a"
+	next "l'oponent per"
 
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
+	page "demostrar com de"
+	next "ferotge crema"
+	next "el seu foc.@"

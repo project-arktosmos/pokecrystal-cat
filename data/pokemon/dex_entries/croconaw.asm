@@ -1,10 +1,11 @@
-	db "BIG JAW@" ; species name
+	db "MANDÍBULA@" ; species name
 	dw 307, 550 ; height, weight
 
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
+	db   "Les puntes dels"
+	next "ullals estan"
+	next "inclinades enrere."
 
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
+	page "Un cop enclaven, la"
+	next "presa no té cap"
+	next "esperança de"
+	next "fugir.@"

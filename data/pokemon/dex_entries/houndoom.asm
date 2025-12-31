@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
+	db "FOSC@" ; species name
 	dw 407, 770 ; height, weight
 
-	db   "The pungent-"
-	next "smelling flame"
-	next "that shoots from"
+	db   "La flama d'olor"
+	next "penetrant que surt"
+	next "de la boca prové"
 
-	page "its mouth results"
-	next "from toxins burn-"
-	next "ing in its body.@"
+	page "de les toxines que"
+	next "cremen al seu"
+	next "cos.@"

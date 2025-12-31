@@ -1,10 +1,11 @@
-	db "SPIKE BALL@" ; species name
+	db "BOLA PUNXA@" ; species name
 	dw 100, 30 ; height, weight
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
+	db   "És considerat un"
+	next "símbol de bona"
+	next "sort. Es diu que"
+	next "la"
 
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	page "seva closca està"
+	next "plena de"
+	next "felicitat.@"

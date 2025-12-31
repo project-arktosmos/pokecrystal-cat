@@ -1,10 +1,11 @@
-	db "POISON PIN@" ; species name
+	db "AGULLA VERÍ@" ; species name
 	dw 104, 150 ; height, weight
 
-	db   "Small and very"
-	next "docile, it pro-"
-	next "tects itself with"
+	db "Petit i molt"
+	next "dòcil,"
+	next "es protegeix amb"
+	next "el"
+	next "seu petit banyó"
 
-	page "its small, poison-"
-	next "ous horn when"
-	next "attacked.@"
+	page "verinós quan"
+	next "l'ataquen.@"

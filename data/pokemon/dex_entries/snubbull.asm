@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
+	db "FADA@" ; species name
 	dw 200, 170 ; height, weight
 
-	db   "In truth, it is a"
-	next "cowardly #MON."
-	next "It growls eagerly"
+	db   "En realitat, és un"
+	next "Pokémon covard."
+	next "Gruny amb ganes"
 
-	page "in order to hide"
-	next "its fear from its"
-	next "opponent.@"
+	page "per amagar la por"
+	next "que té del seu"
+	next "oponent.@"

@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
+	db "LLAVOR@" ; species name
 	dw 204, 150 ; height, weight
 
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
+	db   "De petit, utilitza"
+	next "els nutrients que"
+	next "s'emmagatzemen a"
 
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
+	page "les llavors de la"
+	next "seva esquena per"
+	next "poder créixer.@"

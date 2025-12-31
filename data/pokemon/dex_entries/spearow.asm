@@ -1,10 +1,11 @@
-	db "TINY BIRD@" ; species name
+	db "OCELLET@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "To protect its"
-	next "territory, it"
-	next "flies around"
+	db "Per protegir el"
+	next "seu"
+	next "territori, vola"
+	next "sense parar, fent"
 
-	page "ceaselessly,"
-	next "making high-"
-	next "pitched cries.@"
+	page "crits estridents"
+	next "amb la"
+	next "seva veu.@"

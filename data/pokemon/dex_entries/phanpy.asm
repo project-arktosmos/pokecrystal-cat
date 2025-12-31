@@ -1,10 +1,11 @@
-	db "LONG NOSE@" ; species name
+	db "NAS LLARG@" ; species name
 	dw 108, 740 ; height, weight
 
-	db   "During the desert-"
-	next "ed morning hours,"
-	next "it comes ashore"
+	db   "A les hores dese-"
+	next "rtes del matí,"
+	next "surt"
+	next "a la riba on fa"
 
-	page "where it deftly"
-	next "uses its trunk to"
-	next "take a shower.@"
+	page "servir hàbilment"
+	next "la trompa per"
+	next "dutxar-se.@"

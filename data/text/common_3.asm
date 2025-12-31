@@ -1,452 +1,458 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Bé, com deies que"
+	line "et dius?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, estàs"
+	line "preparat?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "La teva pròpia"
+	line "història #MON"
+	cont "està a punt de"
+	cont "començar."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Trobaràs moments"
+	line "divertits i reptes"
+	cont "difícils."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "Un món de somnis"
+	line "i aventures"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "amb els #MON"
+	line "t'espera! Anem-hi!"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Ens veurem més"
+	line "tard!"
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time"
-	line "may be wrong."
+	text "L'hora del"
+	line "rellotge"
+	cont "pot ser"
+	cont "incorrecta."
 
-	para "Please reset the"
-	line "time."
+	para "Si us plau,"
+	line "reinicia l'hora."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Set with the"
-	line "Control Pad."
+	text "Ajusta amb la"
+	line "creueta."
 
-	para "Confirm: A Button"
-	line "Cancel:  B Button"
+	para "Confirmar: Botó A"
+	line "Cancel·lar: Botó B"
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?"
+	text "Està bé?"
 	done
 
 _ClockHasResetText::
-	text "The clock has been"
-	line "reset."
+	text "El rellotge s'ha"
+	line "reiniciat."
 	done
 
 _LinkTimeoutText::
-	text "Too much time has"
-	line "elapsed. Please"
-	cont "try again."
+	text "Ha passat massa"
+	line "temps. Si us plau,"
+	cont "torna a provar-ho."
 	prompt
 
 _LinkTradeCantBattleText::
-	text "If you trade that"
-	line "#MON, you won't"
-	cont "be able to battle."
+	text "Si intercanvies"
+	line "aquest #MON, no"
+	cont "podràs lluitar."
 	prompt
 
 _LinkAbnormalMonText::
-	text "Your friend's"
-	line "@"
+	text "@"
 	text_ram wStringBuffer1
-	text " appears"
-	cont "to be abnormal!"
+	text " del"
+	line "teu amic sembla"
+	cont "ser anormal!"
 	prompt
 
 _LinkAskTradeForText::
-	text "Trade @"
+	text "Intercanviar @"
 	text_ram wBufferTrademonNickname
 	text_start
-	line "for @"
+	line "per @"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _MobileBattleMustPickThreeMonText::
-	text "To enter a mobile"
-	line "battle, you must"
+	text "Per entrar en un"
+	line "combat mòbil, has"
 
-	para "pick a team of"
-	line "three #MON."
+	para "de triar un equip"
+	line "de tres #MON."
 
-	para "Is that OK?"
+	para "D'acord?"
 	done
 
 _MobileBattleMoreInfoText::
-	text "Need more info on"
-	line "mobile battles?"
+	text "Vols més info"
+	line "sobre"
+	cont "combats mòbils?"
 	done
 
 _MobileBattleRulesText::
-	text "For a mobile"
-	line "battle, choose"
-	cont "three #MON."
+	text "Per un combat"
+	line "mòbil, tria tres"
+	cont "#MON."
 
-	para "The maximum daily"
-	line "play time is ten"
+	para "El temps màxim"
+	line "diari de joc és de"
 
-	para "minutes for each"
-	line "linked player."
+	para "deu minuts per"
+	line "cada jugador."
 
-	para "If a battle isn't"
-	line "finished within"
+	para "Si un combat no"
+	line "acaba dins del"
 
-	para "the time limit,"
-	line "the player with"
+	para "límit de temps,"
+	line "el jugador amb"
 
-	para "the fewest fainted"
-	line "#MON wins."
+	para "menys #MON"
+	line "debilitats guanya."
 
-	para "If tied, the team"
-	line "that lost the"
+	para "Si hi ha empat,"
+	line "l'equip que ha"
 
-	para "least amount of HP"
-	line "wins."
+	para "perdut menys PS"
+	line "guanya."
 	done
 
 _WouldYouLikeToMobileBattleText::
-	text "Today's remaining"
-	line "time is @"
+	text "El temps restant"
+	line "d'avui és @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 
-	para "Would you like to"
-	line "battle?"
+	para "Vols lluitar?"
 	done
 
 _WantAQuickMobileBattleText::
-	text "There are only @"
+	text "Només queden @"
 	text_decimal wStringBuffer2, 1, 2
-	text_start
-	line "min. left today."
+	text " min."
+	line "avui."
 
-	para "Want a quick"
-	line "battle?"
+	para "Vols un combat"
+	line "ràpid?"
 	done
 
 _WantToRushThroughAMobileBattleText::
-	text "There is only"
-	line "1 min. left today!"
+	text "Només queda"
+	line "1 min. avui!"
 
-	para "Want to rush"
-	line "through a battle?"
+	para "Vols fer un combat"
+	line "a corre-cuita?"
 	done
 
 _PleaseTryAgainTomorrowText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "Queda menys de"
+	line "1 min. avui!"
 
-	para "Please try again"
-	line "tomorrow."
+	para "Si us plau, torna"
+	line "a provar-ho demà."
 	done
 
 _TryAgainUsingSameSettingsText::
-	text "Try again using"
-	line "the same settings?"
+	text "Tornar a provar"
+	line "amb el mateix?"
 	done
 
 _MobileBattleLessThanOneMinuteLeftText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "Queda menys de"
+	line "1 min. avui!"
 	done
 
 _MobileBattleNoTimeLeftForLinkingText::
-	text "No time left for"
-	line "linking today."
+	text "No queda temps per"
+	line "connectar avui."
 	done
 
 _PickThreeMonForMobileBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Tria tres #MON"
+	line "per lluitar."
 	done
 
 _MobileBattleRemainingTimeText::
-	text "Today's remaining"
-	line "time is @"
+	text "El temps restant"
+	line "d'avui és @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Would you like to"
-	line "save the game?"
+	text "Vols desar la"
+	line "partida?"
 	done
 
 _SavingDontTurnOffThePowerText::
-	text "SAVING… DON'T TURN"
-	line "OFF THE POWER."
+	text "DESANT… NO APAGUIS"
+	line "LA CONSOLA."
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> saved"
-	line "the game."
+	text "<PLAYER> ha desat"
+	line "la partida."
 	done
 
 _AlreadyASaveFileText::
-	text "There is already a"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "Ja hi ha un fitxer"
+	line "desat. Vols"
+	cont "sobreescriure'l?"
 	done
 
 _AnotherSaveFileText::
-	text "There is another"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "Hi ha un altre"
+	line "fitxer desat. Vols"
+	cont "sobreescriure'l?"
 	done
 
 _SaveFileCorruptedText::
-	text "The save file is"
-	line "corrupted!"
+	text "El fitxer desat"
+	line "és corrupte!"
 	prompt
 
 _ChangeBoxSaveText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved. OK?"
+	text "Quan canviïs de"
+	line "CAIXA #MON, es"
+	cont "desarà. D'acord?"
 	done
 
 _MoveMonWOMailSaveText::
-	text "Each time you move"
-	line "a #MON, data"
-	cont "will be saved. OK?"
+	text "Cada cop que"
+	line "moguis"
+	cont "un #MON, es"
+	cont "desarà. D'acord?"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
-	text "The window save"
-	line "area was exceeded."
+	text "L'àrea de guardat"
+	line "de finestra s'ha"
+	cont "excedit."
 	done
 
 _WindowPoppingErrorText::
-	text "No windows avail-"
-	line "able for popping."
+	text "No hi ha finestres"
+	line "per mostrar."
 	done
 
 _CorruptedEventText:: ; unreferenced
-	text "Corrupted event!"
+	text "Esdeveniment"
+	line "corrupte!"
 	prompt
 
 _ObjectEventText::
-	text "Object event"
+	text "Event d'objecte"
 	done
 
 _BGEventText::
-	text "BG event"
+	text "Event de fons"
 	done
 
 _CoordinatesEventText::
-	text "Coordinates event"
+	text "Event coordenades"
 	done
 
 _ReceivedItemText::
-	text "<PLAYER> received"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> put the"
+	text "<PLAYER> ha posat"
 	line "@"
 	text_ram wStringBuffer1
-	text " in"
-	cont "the @"
+	text " a"
+	cont "@"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PocketIsFullText::
-	text "The @"
+	text "@"
 	text_ram wStringBuffer3
 	text_start
-	line "is full…"
+	line "és ple/na…"
 	prompt
 
 _SeerSeeAllText::
-	text "I see all."
-	line "I know all…"
+	text "Ho veig tot."
+	line "Ho sé tot…"
 
-	para "Certainly, I know"
-	line "of your #MON!"
+	para "És clar que sé"
+	line "del teu #MON!"
 	done
 
 _SeerCantTellAThingText::
-	text "Whaaaat? I can't"
-	line "tell a thing!"
+	text "Quèèèè? No puc"
+	line "veure res!"
 
-	para "How could I not"
-	line "know of this?"
+	para "Com pot ser que no"
+	line "ho sàpiga?"
 	done
 
 _SeerNameLocationText::
-	text "Hm… I see you met"
-	line "@"
+	text "Hm… Veig que vas"
+	line "conèixer @"
 	text_ram wSeerNickname
-	text " here:"
-	cont "@"
+	text_start
+	cont "aquí: @"
 	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
 
 _SeerTimeLevelText::
-	text "The time was"
+	text "L'hora era"
 	line "@"
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Its level was @"
+	para "El seu nivell era"
+	line "@"
 	text_ram wSeerCaughtLevelString
 	text "!"
 
-	para "Am I good or what?"
+	para "Sóc bona, oi?"
 	prompt
 
 _SeerTradeText::
 	text "Hm… @"
 	text_ram wSeerNickname
 	text_start
-	line "came from @"
+	line "va venir de @"
 	text_ram wSeerOT
 	text_start
-	cont "in a trade?"
+	cont "en intercanvi?"
 
 	para "@"
 	text_ram wSeerCaughtLocation
 	text_start
-	line "was where @"
+	line "és on @"
 	text_ram wSeerOT
 	text_start
-	cont "met @"
+	cont "va conèixer @"
 	text_ram wSeerNickname
 	text "!"
 	prompt
 
 _SeerNoLocationText::
-	text "What!? Incredible!"
+	text "Què!? Increïble!"
 
-	para "I don't understand"
-	line "how, but it is"
+	para "No entenc com,"
+	line "però"
+	cont "és increïble!"
 
-	para "incredible!"
-	line "You are special."
+	para "Ets especial."
 
-	para "I can't tell where"
-	line "you met it, but it"
-	cont "was at level @"
+	para "No puc dir on el"
+	line "vas conèixer, però"
+	cont "era a nivell @"
 	text_ram wSeerCaughtLevelString
 	text "."
 
-	para "Am I good or what?"
+	para "Sóc bona, oi?"
 	prompt
 
 _SeerEggText::
-	text "Hey!"
+	text "Ei!"
 
-	para "That's an EGG!"
+	para "Això és un OU!"
 
-	para "You can't say that"
-	line "you've met it yet…"
+	para "No pots dir que"
+	line "l'has conegut…"
 	done
 
 _SeerDoNothingText::
-	text "Fufufu! I saw that"
-	line "you'd do nothing!"
+	text "Jujuju! Ja sabia"
+	line "que no faries res!"
 	done
 
 _SeerMoreCareText::
-	text "Incidentally…"
+	text "Per cert…"
 
-	para "It would be wise"
-	line "to raise your"
+	para "Seria bo que"
+	line "criessis el teu"
 
-	para "#MON with a"
-	line "little more care."
+	para "#MON amb una"
+	line "mica més de cura."
 	done
 
 _SeerMoreConfidentText::
-	text "Incidentally…"
+	text "Per cert…"
 
-	para "It seems to have"
-	line "grown a little."
+	para "Sembla que ha"
+	line "crescut una mica."
 
 	para "@"
 	text_ram wSeerNickname
-	text " seems"
-	line "to be becoming"
-	cont "more confident."
+	text " sembla"
+	line "que està guanyant"
+	cont "més confiança."
 	done
 
 _SeerMuchStrengthText::
-	text "Incidentally…"
+	text "Per cert…"
 
 	para "@"
 	text_ram wSeerNickname
-	text " has"
-	line "grown. It's gained"
-	cont "much strength."
+	text " ha"
+	line "crescut. Ha guany-"
+	cont "at molta força."
 	done
 
 _SeerMightyText::
-	text "Incidentally…"
+	text "Per cert…"
 
-	para "It certainly has"
-	line "grown mighty!"
+	para "Certament s'ha fet"
+	line "molt poderós!"
 
-	para "This @"
+	para "Aquest @"
 	text_ram wSeerNickname
 	text_start
-	line "must have come"
+	line "ha passat per"
 
-	para "through numerous"
-	line "#MON battles."
+	para "molts combats"
+	line "#MON."
 
-	para "It looks brimming"
-	line "with confidence."
+	para "Sembla ple de"
+	line "confiança."
 	done
 
 _SeerImpressedText::
-	text "Incidentally…"
+	text "Per cert…"
 
-	para "I'm impressed by"
-	line "your dedication."
+	para "Estic impressiona-"
+	line "da pel teu esforç."
 
-	para "It's been a long"
-	line "time since I've"
+	para "Fa molt temps que"
+	line "no veig un #MON"
 
-	para "seen a #MON as"
-	line "mighty as this"
-	cont "@"
+	para "tan poderós com"
+	line "aquest @"
 	text_ram wSeerNickname
 	text "."
 
-	para "I'm sure that"
-	line "seeing @"
+	para "Estic segura que"
+	line "veure @"
 	text_ram wSeerNickname
 	text_start
 
-	para "in battle would"
-	line "excite anyone."
+	para "en combat seria"
+	line "emocionant."
 	done
 
 _CongratulationsYourPokemonText::
-	text "Congratulations!"
-	line "Your @"
+	text "Felicitats!"
+	line "El teu @"
 	text_ram wStringBuffer2
 	text_end
 
@@ -455,307 +461,309 @@ _CongratulationsYourPokemonText::
 _EvolvedIntoText::
 	text_start
 
-	para "evolved into"
+	para "ha evolucionat a"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Eh? @"
 	text_ram wStringBuffer2
-	text_start
-	line "stopped evolving!"
+	text " ha"
+	line "parat d'evolucio-"
+	cont "nar!"
 	prompt
 
 _EvolvingText::
-	text "What? @"
+	text "Què? @"
 	text_ram wStringBuffer2
 	text_start
-	line "is evolving!"
+	line "està evolucionant!"
 	done
 
 _MartHowManyText::
-	text "How many?"
+	text "Quants?"
 	done
 
 _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will be ¥@"
+	text_start
+	line "costaran ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbShopLadyIntroText::
-	text "Hello, dear."
+	text "Hola, bonica."
 
-	para "I sell inexpensive"
-	line "herbal medicine."
+	para "Venc medicina"
+	line "d'herbes barata."
 
-	para "They're good, but"
-	line "a trifle bitter."
+	para "Són bones, però"
+	line "una mica amargues."
 
-	para "Your #MON may"
-	line "not like them."
+	para "Potser als #MON"
+	line "no els agradin."
 
-	para "Hehehehe…"
+	para "Hehehe…"
 	done
 
 _HerbalLadyHowManyText::
-	text "How many?"
+	text "Quants?"
 	done
 
 _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will be ¥@"
+	text_start
+	line "costaran ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbalLadyThanksText::
-	text "Thank you, dear."
-	line "Hehehehe…"
+	text "Gràcies, bonica."
+	line "Hehehe…"
 	done
 
 _HerbalLadyPackFullText::
-	text "Oh? Your PACK is"
-	line "full, dear."
+	text "Oh? La MOTXILLA"
+	line "és plena, bonica."
 	done
 
 _HerbalLadyNoMoneyText::
-	text "Hehehe… You don't"
-	line "have the money."
+	text "Hehehe… No tens"
+	line "prou diners."
 	done
 
 _HerbalLadyComeAgainText::
-	text "Come again, dear."
-	line "Hehehehe…"
+	text "Torna, bonica."
+	line "Hehehe…"
 	done
 
 _BargainShopIntroText::
-	text "Hiya! Care to see"
-	line "some bargains?"
+	text "Hola! Vols veure"
+	line "ofertes?"
 
-	para "I sell rare items"
-	line "that nobody else"
+	para "Venc objectes rars"
+	line "que ningú més té,"
 
-	para "carries--but only"
-	line "one of each item."
+	para "però només un de"
+	line "cada objecte."
 	done
 
 _BargainShopFinalPriceText::
+	text "@"
 	text_ram wStringBuffer2
-	text " costs"
+	text " costa"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text ". Want it?"
+	text ". El vols?"
 	done
 
 _BargainShopThanksText::
-	text "Thanks."
+	text "Gràcies."
 	done
 
 _BargainShopPackFullText::
-	text "Uh-oh, your PACK"
-	line "is chock-full."
+	text "Ui, la MOTXILLA"
+	line "és plena."
 	done
 
 _BargainShopSoldOutText::
-	text "You bought that"
-	line "already. I'm all"
-	cont "sold out of it."
+	text "Ja ho has comprat."
+	line "M'he quedat sense"
+	cont "estoc."
 	done
 
 _BargainShopNoFundsText::
-	text "Uh-oh, you're"
-	line "short on funds."
+	text "Ui, no tens prou"
+	line "diners."
 	done
 
 _BargainShopComeAgainText::
-	text "Come by again"
-	line "sometime."
+	text "Torna quan vulguis"
 	done
 
 _PharmacyIntroText::
-	text "What's up? Need"
-	line "some medicine?"
+	text "Què tal?"
+	line "Necessites"
+	cont "medicina?"
 	done
 
 _PharmacyHowManyText::
-	text "How many?"
+	text "Quants?"
 	done
 
 _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will cost ¥@"
+	text_start
+	line "costaran ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _PharmacyThanksText::
-	text "Thanks much!"
+	text "Moltes gràcies!"
 	done
 
 _PharmacyPackFullText::
-	text "You don't have any"
-	line "more space."
+	text "No tens més espai."
 	done
 
 _PharmacyNoMoneyText::
-	text "Huh? That's not"
-	line "enough money."
+	text "Eh? No tens prou"
+	line "diners."
 	done
 
 _PharmacyComeAgainText::
-	text "All right."
-	line "See you around."
+	text "D'acord."
+	line "Ens veiem!"
 	done
 
 _NothingToSellText::
-	text "You don't have"
-	line "anything to sell."
+	text "No tens res per"
+	line "vendre."
 	prompt
 
 _MartSellHowManyText::
-	text "How many?"
+	text "Quants?"
 	done
 
 _MartSellPriceText::
-	text "I can pay you"
+	text "Et puc pagar"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 
-	para "Is that OK?"
+	para "D'acord?"
 	done
 
 _MartWelcomeText::
-	text "Welcome! How may I"
-	line "help you?"
+	text "Benvingut! En què"
+	line "et puc ajudar?"
 	done
 
 _MartThanksText::
-	text "Here you are."
-	line "Thank you!"
+	text "Aquí tens."
+	line "Gràcies!"
 	done
 
 _MartNoMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "No tens prou"
+	line "diners."
 	done
 
 _MartPackFullText::
-	text "You can't carry"
-	line "any more items."
+	text "No pots portar"
+	line "més objectes."
 	done
 
 _MartCantBuyText::
-	text "Sorry, I can't buy"
-	line "that from you."
+	text "Ho sento, no puc"
+	line "comprar-te això."
 	prompt
 
 _MartComeAgainText::
-	text "Please come again!"
+	text "Torna quan"
+	line "vulguis!"
 	done
 
 _MartAskMoreText::
-	text "Can I do anything"
-	line "else for you?"
+	text "Puc fer alguna"
+	line "cosa més per tu?"
 	done
 
 _MartBoughtText::
-	text "Got ¥@"
+	text "Has guanyat ¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text " for"
-	line "@"
+	text_start
+	line "per @"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "."
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Bet how many"
-	line "coins?"
+	text "Quantes monedes"
+	line "apostes?"
 	done
 
 _SlotsStartText::
-	text "Start!"
+	text "Comença!"
 	done
 
 _SlotsNotEnoughCoinsText::
-	text "Not enough"
-	line "coins."
+	text "No tens prou"
+	line "monedes."
 	prompt
 
 _SlotsRanOutOfCoinsText::
-	text "Darn… Ran out of"
-	line "coins…"
+	text "Ostres… S'han"
+	line "acabat les monedes"
 	done
 
 _SlotsPlayAgainText::
-	text "Play again?"
+	text "Tornar a jugar?"
 	done
 
 _SlotsLinedUpText::
-	text "lined up!"
-	line "Won @"
+	text "en línia!"
+	line "Has guanyat @"
 	text_ram wStringBuffer2
-	text " coins!"
+	text "!"
 	done
 
 _SlotsDarnText::
-	text "Darn!"
+	text "Ostres!"
 	done
 
 _MobileStadiumEntryText::
-	text "Data for use in"
-	line "the MOBILE STADIUM"
+	text "Aquí es poden"
+	line "llegir dades per"
 
-	para "of the N64 #MON"
-	line "STADIUM 2 can be"
-	cont "read here."
+	para "usar al MOBILE"
+	line "STADIUM del N64"
+	cont "#MON STADIUM 2."
 
-	para "Read the data?"
+	para "Llegir les dades?"
 	done
 
 _MobileStadiumSuccessText::
-	text "Data transfer is"
-	line "complete."
+	text "La transferència"
+	line "s'ha completat."
 
-	para "We hope you enjoy"
-	line "MOBILE STADIUM"
+	para "Esperem que gaudis"
+	line "els combats MOBILE"
 
-	para "battles in the N64"
+	para "STADIUM al N64"
 	line "#MON STADIUM 2."
 
 	para ""
 	done
 
 _MainMenuTimeUnknownText::
-	text "Clock time unknown"
+	text "Hora desconeguda"
 	done
 
 _DeleteSavedLoginPasswordText::
-	text "Delete the saved"
-	line "LOG-IN PASSWORD?"
+	text "Eliminar la"
+	line "contrasenya?"
 	done
 
 _DeletedTheLoginPasswordText::
-	text "Deleted the LOG-IN"
-	line "PASSWORD."
+	text "S'ha eliminat la"
+	line "contrasenya."
 	done
 
 _MobilePickThreeMonForBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Tria tres #MON"
+	line "per lluitar."
 	prompt
 
 _MobileUseTheseThreeMonText::
@@ -763,128 +771,128 @@ _MobileUseTheseThreeMonText::
 	text ","
 	line "@"
 	text_ram wMobileParticipant2Nickname
-	text " and"
+	text " i"
 	cont "@"
 	text_ram wMobileParticipant3Nickname
 	text "."
 
-	para "Use these three?"
+	para "Usar aquests tres?"
 	done
 
 _MobileOnlyThreeMonMayEnterText::
-	text "Only three #MON"
-	line "may enter."
+	text "Només poden entrar"
+	line "tres #MON."
 	prompt
 
 _MobileCardFolderIntro1Text::
-	text "The CARD FOLDER"
-	line "stores your and"
+	text "La CARPETA TARGES"
+	line "guarda les teves"
 
-	para "your friends'"
-	line "CARDS."
+	para "TARGES i les"
+	line "dels teus amics."
 
-	para "A CARD contains"
-	line "information like"
+	para "Una TARJA conté"
+	line "informació com el"
 
-	para "the person's name,"
-	line "phone number and"
-	cont "profile."
+	para "nom, el telèfon"
+	line "i el perfil."
 
 	para ""
 	done
 
 _MobileCardFolderIntro2Text::
-	text "This is your CARD."
+	text "Aquesta és la"
+	line "teva TARJA."
 
-	para "Once you've"
-	line "entered your phone"
+	para "Un cop hagis"
+	line "posat el teu"
 
-	para "number, you can"
-	line "trade CARDS with"
-	cont "your friends."
+	para "telèfon, podràs"
+	line "intercanviar"
+	cont "TARGES amb amics."
 
 	para ""
 	done
 
 _MobileCardFolderIntro3Text::
-	text "If you have your"
-	line "friend's CARD, you"
+	text "Si tens la TARJA"
+	line "d'un amic, pots"
 
-	para "can use it to make"
-	line "a call from a"
+	para "usar-la per trucar"
+	line "des d'un mòbil"
 
-	para "mobile phone on"
-	line "the 2nd floor of a"
-	cont "#MON CENTER."
+	para "al 2n pis d'un"
+	line "CENTRE #MON."
 
 	para ""
 	done
 
 _MobileCardFolderIntro4Text::
-	text "To safely store"
-	line "your collection of"
+	text "Per guardar bé"
+	line "les teves TARGES,"
 
-	para "CARDS, you must"
-	line "set a PASSCODE for"
-	cont "your CARD FOLDER."
+	para "has de posar un"
+	line "CODI a la CARPETA"
+	cont "DE TARGES."
 
 	para ""
 	done
 
 _MobileCardFolderAskDeleteText::
-	text "If the CARD FOLDER"
-	line "is deleted, all"
+	text "Si elimines la"
+	line "CARPETA TARGES,"
 
-	para "its CARDS and the"
-	line "PASSCODE will also"
-	cont "be deleted."
+	para "totes les TARGES"
+	line "i el CODI també"
+	cont "s'eliminaran."
 
-	para "Beware--a deleted"
-	line "CARD FOLDER can't"
-	cont "be restored."
+	para "Compte: una"
+	line "CARPETA eliminada"
+	cont "no es pot restaur."
 
-	para "Want to delete"
-	line "your CARD FOLDER?"
+	para "Vols eliminar la"
+	line "CARPETA TARGES?"
 	done
 
 _MobileCardFolderDeleteAreYouSureText::
-	text "Are you sure you"
-	line "want to delete it?"
+	text "Segur que vols"
+	line "eliminar-la?"
 	done
 
 _MobileCardFolderDeletedText::
-	text "The CARD FOLDER"
-	line "has been deleted."
+	text "S'ha eliminat la"
+	line "CARPETA TARGES."
 
 	para ""
 	done
 
 _MobileCardFolderAskOpenOldText::
-	text "There is an older"
-	line "CARD FOLDER from a"
-	cont "previous journey."
+	text "Hi ha una CARPETA"
+	line "TARGES antiga d'un"
+	cont "viatge anterior."
 
-	para "Do you want to"
-	line "open it?"
+	para "Vols obrir-la?"
 	done
 
 _MobileCardFolderAskDeleteOldText::
-	text "Delete the old"
-	line "CARD FOLDER?"
+	text "Eliminar la"
+	line "CARPETA"
+	cont "TARGES antiga?"
 	done
 
 _MobileCardFolderFinishRegisteringCardsText::
-	text "Finish registering"
-	line "CARDS?"
+	text "Acabar de"
+	line "registrar"
+	cont "TARGES?"
 	done
 
 _PhoneWrongNumberText::
-	text "Huh? Sorry, wrong"
-	line "number!"
+	text "Eh? Ho sento,"
+	line "número equivocat!"
 	done
 
 _PhoneClickText::
-	text "Click!"
+	text "Clic!"
 	done
 
 _PhoneEllipseText::
@@ -892,17 +900,17 @@ _PhoneEllipseText::
 	done
 
 _PhoneOutOfAreaText::
-	text "That number is out"
-	line "of the area."
+	text "Aquest número és"
+	line "fora de zona."
 	done
 
 _PhoneJustTalkToThemText::
-	text "Just go talk to"
-	line "that person!"
+	text "Vés a parlar amb"
+	line "aquesta persona!"
 	done
 
 _PhoneThankYouText::
-	text "Thank you!"
+	text "Gràcies!"
 	done
 
 _SpaceSpaceColonText:: ; unreferenced
@@ -910,33 +918,35 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Password OK."
-	line "Select CONTINUE &"
-	cont "reset settings."
+	text "Contrasenya OK."
+	line "Tria CONTINUAR i"
+	cont "reinicia configs."
 	prompt
 
 _PasswordWrongText::
-	text "Wrong password!"
+	text "Contrasenya"
+	line "errònia"
 	prompt
 
 _PasswordAskResetClockText::
-	text "Reset the clock?"
+	text "Reiniciar"
+	line "rellotge?"
 	done
 
 _PasswordAskEnterText::
-	text "Please enter the"
-	line "password."
+	text "Si us plau, posa"
+	line "la contrasenya."
 	done
 
 _ClearAllSaveDataText::
-	text "Clear all save"
-	line "data?"
+	text "Esborrar totes les"
+	line "dades?"
 	done
 
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " learned"
-	line "@"
+	text " ha"
+	line "après @"
 	text_ram wStringBuffer2
 	text "!@"
 	sound_dex_fanfare_50_79
@@ -946,12 +956,12 @@ _LearnedMoveText::
 	text_end ; unreferenced
 
 _MoveAskForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Quin moviment s'ha"
+	next "d'oblidar?"
 	done
 
 _StopLearningMoveText::
-	text "Stop learning"
+	text "Deixar d'aprendre"
 	line "@"
 	text_ram wStringBuffer2
 	text "?"
@@ -959,8 +969,8 @@ _StopLearningMoveText::
 
 _DidNotLearnMoveText::
 	text_ram wMonOrItemNameBuffer
-	text_start
-	line "did not learn"
+	text " no"
+	line "ha après"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
@@ -968,85 +978,87 @@ _DidNotLearnMoveText::
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " is"
-	line "trying to learn"
+	text " vol"
+	line "aprendre"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "But @"
+	para "Però @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "can't learn more"
-	cont "than four moves."
+	line "no pot aprendre"
+	cont "més de 4 moviments"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Eliminar un antic"
+	line "per fer lloc a"
+	cont "@"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 Text_MoveForgetCount::
-	text "1, 2 and…@"
+	text "1, 2 i…@"
 	text_pause
 	text_end
 
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text " Poof!@"
+	text " Puf!@"
 	text_pause
 	text_start
 
 	para "@"
 	text_ram wMonOrItemNameBuffer
-	text " forgot"
-	line "@"
+	text " ha"
+	line "oblidat @"
 	text_ram wStringBuffer1
 	text "."
 
-	para "And…"
+	para "I…"
 	prompt
 
 _MoveCantForgetHMText::
-	text "HM moves can't be"
-	line "forgotten now."
+	text "No es poden"
+	line "oblidar"
+	cont "els moviments MO."
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
-	text "Play with three"
-	line "coins?"
+	text "Jugar amb tres"
+	line "monedes?"
 	done
 
 _CardFlipNotEnoughCoinsText::
-	text "Not enough coins…"
+	text "No hi ha prou"
+	line "monedes…"
 	prompt
 
 _CardFlipChooseACardText::
-	text "Choose a card."
+	text "Tria una carta."
 	done
 
 _CardFlipPlaceYourBetText::
-	text "Place your bet."
+	text "Fes l'aposta."
 	done
 
 _CardFlipPlayAgainText::
-	text "Want to play"
-	line "again?"
+	text "Vols tornar a"
+	line "jugar?"
 	done
 
 _CardFlipShuffledText::
-	text "The cards have"
-	line "been shuffled."
+	text "Les cartes s'han"
+	line "barrejat."
 	prompt
 
 _CardFlipYeahText::
-	text "Yeah!"
+	text "Sí!"
 	done
 
 _CardFlipDarnText::
-	text "Darn…"
+	text "Ostres…"
 	done
 
 _GearTodayText::
@@ -1060,165 +1072,165 @@ _GearEllipseText::
 	done
 
 _GearOutOfServiceText::
-	text "You're out of the"
-	line "service area."
+	text "Estàs fora de la"
+	line "zona de servei."
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Whom do you want"
-	line "to call?"
+	text "A qui vols trucar?"
 	done
 
 _PokegearPressButtonText::
-	text "Press any button"
-	line "to exit."
+	text "Prem qualsevol"
+	line "botó per sortir."
 	done
 
 _PokegearAskDeleteText::
-	text "Delete this stored"
-	line "phone number?"
+	text "Eliminar aquest"
+	line "número de telèfon?"
 	done
 
 _BuenaAskWhichPrizeText::
-	text "Which prize would"
-	line "you like?"
+	text "Quin premi"
+	line "voldries"
 	done
 
 _BuenaIsThatRightText::
 	text_ram wStringBuffer1
 	text "?"
-	line "Is that right?"
+	line "És correcte?"
 	done
 
 _BuenaHereYouGoText::
-	text "Here you go!"
+	text "Aquí tens!"
 
 	para ""
 	done
 
 _BuenaNotEnoughPointsText::
-	text "You don't have"
-	line "enough points."
+	text "No tens prou"
+	line "punts."
 
 	para ""
 	done
 
 _BuenaNoRoomText::
-	text "You have no room"
-	line "for it."
+	text "No tens espai"
+	line "per a això."
 
 	para ""
 	done
 
 _BuenaComeAgainText::
-	text "Oh. Please come"
-	line "back again!"
+	text "Oh. Si us plau,"
+	line "torna!"
 	done
 
 _BTExcuseMeText::
-	text "Excuse me!"
+	text "Perdona!"
 
 	para ""
 	done
 
 _ExcuseMeYoureNotReadyText::
-	text "Excuse me."
-	line "You're not ready."
+	text "Perdona."
+	line "No estàs preparat."
 
 	para ""
 	done
 
 _BattleTowerReturnWhenReadyText::
-	text "Please return when"
-	line "you're ready."
+	text "Si us plau, torna"
+	line "quan estiguis"
+	cont "preparat."
 	done
 
 _NeedAtLeastThreeMonText::
-	text "You need at least"
-	line "three #MON."
+	text "Necessites almenys"
+	line "tres #MON."
 
 	para ""
 	done
 
 _EggDoesNotQualifyText::
-	text "Sorry, an EGG"
-	line "doesn't qualify."
+	text "Ho sento, un OU"
+	line "no qualifica."
 
 	para ""
 	done
 
 _OnlyThreeMonMayBeEnteredText::
-	text "Only three #MON"
-	line "may be entered."
+	text "Només poden entrar"
+	line "tres #MON."
 
 	para ""
 	done
 
 _TheMonMustAllBeDifferentKindsText::
-	text "The @"
+	text "Els @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "must all be"
-	cont "different kinds."
+	line "han de ser de"
+	cont "tipus diferents."
 
 	para ""
 	done
 
 _TheMonMustNotHoldTheSameItemsText::
-	text "The @"
+	text "Els @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "must not hold the"
-	cont "same items."
+	line "no poden portar"
+	cont "els mateixos obj."
 
 	para ""
 	done
 
 _YouCantTakeAnEggText::
-	text "You can't take an"
-	line "EGG!"
+	text "No pots agafar"
+	line "un OU!"
 
 	para ""
 	done
 
 _BallDodgedText::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Ha esquivat la"
+	line "BALL llençada!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Aquest #MON no"
+	line "es pot capturar!"
 	prompt
 
 _BallMissedText::
-	text "You missed the"
+	text "Has fallat el"
 	line "#MON!"
 	prompt
 
 _BallBrokeFreeText::
-	text "Oh no! The #MON"
-	line "broke free!"
+	text "Oh no! El #MON"
+	line "s'ha escapat!"
 	prompt
 
 _BallAppearedCaughtText::
-	text "Aww! It appeared"
-	line "to be caught!"
+	text "Oh! Semblava"
+	line "capturat!"
 	prompt
 
 _BallAlmostHadItText::
-	text "Aargh!"
-	line "Almost had it!"
+	text "Arg!"
+	line "Gairebé el tenies!"
 	prompt
 
 _BallSoCloseText::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Ostres! Per ben"
+	line "poc!"
 	prompt
 
 Text_BallCaught::
-	text "Gotcha! @"
+	text "Capturat! @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "was caught!@"
+	line "ha estat capturat!@"
 	sound_caught_mon
 	text_end
 
@@ -1232,15 +1244,16 @@ _WaitButtonText::
 
 _BallSentToPCText::
 	text_ram wMonOrItemNameBuffer
-	text " was"
-	line "sent to BILL's PC."
+	text " s'ha"
+	line "enviat al PC BILL."
 	prompt
 
 _NewDexDataText::
+	text "Les dades de @"
 	text_ram wEnemyMonNickname
-	text "'s data"
-	line "was newly added to"
-	cont "the #DEX.@"
+	text_start
+	line "s'han afegit a la"
+	cont "#DEX.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -1248,61 +1261,63 @@ _NewDexDataText::
 	text_end ; unreferenced
 
 _AskGiveNicknameText::
-	text "Give a nickname to"
+	text "Posar sobrenom a"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _ItemStatRoseText::
-	text_ram wStringBuffer1
-	text "'s"
-	line "@"
+	text "El/la @"
 	text_ram wStringBuffer2
-	text " rose."
+	text_start
+	line "de @"
+	text_ram wStringBuffer1
+	text " ha pujat."
 	prompt
 
 _ItemCantUseOnMonText::
-	text "That can't be used"
-	line "on this #MON."
+	text "No es pot usar en"
+	line "aquest #MON."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
-	line "earlier is still"
-	cont "in effect."
+	text "El REPEL usat"
+	line "abans encara fa"
+	cont "efecte."
 	prompt
 
 _PlayedFluteText::
-	text "Played the #"
-	line "FLUTE."
+	text "Has tocat la"
+	line "FLAUTA #."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Quina melodia"
+	line "més enganxosa!"
 	prompt
 
 _FluteWakeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Tots els #MON"
+	line "adormits s'han"
+	cont "despertat."
 	prompt
 
 Text_PlayedPokeFlute::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> ha tocat"
+	line "la FLAUTA #.@"
 	text_promptbutton
 	text_end
 
 	text_end ; unreferenced
 
 _BlueCardBalanceText::
-	text "You now have"
+	text "Ara tens"
 	line "@"
 	text_decimal wBlueCardBalance, 1, 2
-	text " points."
+	text " punts."
 	done
 
 _CoinCaseCountText::
-	text "Coins:"
+	text "Monedes:"
 	line "@"
 	text_decimal wCoins, 2, 4
 	text_end
@@ -1310,217 +1325,221 @@ _CoinCaseCountText::
 	text_end ; unreferenced
 
 _RaiseThePPOfWhichMoveText::
-	text "Raise the PP of"
-	line "which move?"
+	text "Augmentar els PP"
+	line "de quin moviment?"
 	done
 
 _RestoreThePPOfWhichMoveText::
-	text "Restore the PP of"
-	line "which move?"
+	text "Restaurar els PP"
+	line "de quin moviment?"
 	done
 
 _PPIsMaxedOutText::
+	text "Els PP de @"
 	text_ram wStringBuffer2
-	text "'s PP"
-	line "is maxed out."
+	text_start
+	line "ja són al màxim."
 	prompt
 
 _PPsIncreasedText::
+	text "Els PP de @"
 	text_ram wStringBuffer2
-	text "'s PP"
-	line "increased."
+	text_start
+	line "han augmentat."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "S'han restaurat"
+	line "els PP."
 	prompt
 
 _SentTrophyHomeText::
-	text "There was a trophy"
-	line "inside!@"
+	text "Hi havia un trofeu"
+	line "a dins!@"
 	sound_dex_fanfare_50_79
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " sent the"
-	line "trophy home."
+	text " ha enviat"
+	line "el trofeu a casa."
 	prompt
 
 _ItemLooksBitterText::
-	text "It looks bitter…"
+	text "Sembla amarg…"
 	prompt
 
 _ItemCantUseOnEggText::
-	text "That can't be used"
-	line "on an EGG."
+	text "No es pot usar"
+	line "en un OU."
 	prompt
 
 _ItemOakWarningText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	line "Ara no és el"
+	cont "moment d'usar-ho!"
 	prompt
 
 _ItemBelongsToSomeoneElseText::
-	text "That belongs to"
-	line "someone else!"
+	text "Això pertany a"
+	line "algú altre!"
 	prompt
 
 _ItemWontHaveEffectText::
-	text "It won't have any"
-	line "effect."
+	text "No tindrà cap"
+	line "efecte."
 	prompt
 
 _BallBlockedText::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "L'entrenador ha"
+	line "bloquejat la BALL!"
 	prompt
 
 _BallDontBeAThiefText::
-	text "Don't be a thief!"
+	text "No siguis un"
+	line "lladre"
 	prompt
 
 _NoCyclingText::
-	text "Cycling isn't"
-	line "allowed here."
+	text "No es permet anar"
+	line "en bici aquí."
 	prompt
 
 _ItemCantGetOnText::
-	text "Can't get on your"
-	line "@"
+	text "No pots pujar a"
+	line "la @"
 	text_ram wStringBuffer1
-	text " now."
+	text " ara."
 	prompt
 
 _BallBoxFullText::
-	text "The #MON BOX"
-	line "is full. That"
-	cont "can't be used now."
+	text "La CAIXA #MON"
+	line "és plena. Ara no"
+	cont "es pot usar."
 	prompt
 
 _ItemUsedText::
-	text "<PLAYER> used the@"
+	text "<PLAYER> ha usat@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _ItemGotOnText::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> ha pujat@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _ItemGotOffText::
-	text "<PLAYER> got off@"
+	text "<PLAYER> ha baixat@"
 	text_low
-	text "the @"
+	text "de @"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _KnowsMoveText::
 	text_ram wStringBuffer1
-	text " knows"
+	text " sap"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _MoveKnowsOneText::
-	text "That #MON knows"
-	line "only one move."
+	text "Aquest #MON"
+	line "només sap un mov."
 	done
 
 _AskDeleteMoveText::
-	text "Oh, make it forget"
+	text "Oh, fer-li oblidar"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _DeleterForgotMoveText::
-	text "Done! Your #MON"
-	line "forgot the move."
+	text "Fet! El teu"
+	line "#MON"
+	cont "ha oblidat el mov."
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
-	line "know any moves!"
+	text "Un OU no sap"
+	line "cap moviment!"
 	done
 
 _DeleterNoComeAgainText::
-	text "No? Come visit me"
-	line "again."
+	text "No? Torna a"
+	line "visitar-me."
 	done
 
 _DeleterAskWhichMoveText::
-	text "Which move should"
-	line "it forget, then?"
+	text "Quin moviment ha"
+	line "d'oblidar, doncs?"
 	prompt
 
 _DeleterIntroText::
-	text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER."
+	text "Hm… Oh, sí, sóc"
+	line "l'ELIMINADOR MOV."
 
-	para "I can make #MON"
-	line "forget moves."
+	para "Puc fer que els"
+	line "#MON oblidin"
+	cont "mov"
 
-	para "Shall I make a"
-	line "#MON forget?"
+	para "Vols que en faci"
+	line "oblidar un"
+	cont "#MON?"
 	done
 
 _DeleterAskWhichMonText::
-	text "Which #MON?"
+	text "Quin #MON?"
 	prompt
 
 _DSTIsThatOKText::
-	text " DST,"
-	line "is that OK?"
+	text " HE,"
+	line "està bé?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "està bé?"
 	done
 
 _TimesetAskDSTText::
-	text "Do you want to"
-	line "switch to Daylight"
-	cont "Saving Time?"
+	text "Vols canviar a"
+	line "l'Horari d'Estiu?"
 	done
 
 _TimesetDSTText::
-	text "I set the clock"
-	line "forward by one"
-	cont "hour."
+	text "He avançat el"
+	line "rellotge una hora."
 	prompt
 
 _TimesetAskNotDSTText::
-	text "Is Daylight Saving"
-	line "Time over?"
+	text "S'ha acabat"
+	line "l'Horari d'Estiu?"
 	done
 
 _TimesetNotDSTText::
-	text "I put the clock"
-	line "back one hour."
+	text "He endarrerit el"
+	line "rellotge una hora."
 	prompt
 
 _TimesetAskAdjustDSTText::
-	text "Do you want to"
-	line "adjust your clock"
+	text "Vols ajustar el"
+	line "rellotge per a"
 
-	para "for Daylight"
-	line "Saving Time?"
+	para "l'Horari d'Estiu?"
 	done
 
 _MomLostGearBookletText::
-	text "I lost the in-"
-	line "struction booklet"
-	cont "for the #GEAR."
+	text "He perdut el"
+	line "manual del"
+	cont "#GEAR."
 
-	para "Come back again in"
-	line "a while."
+	para "Torna d'aquí una"
+	line "estona."
 	prompt

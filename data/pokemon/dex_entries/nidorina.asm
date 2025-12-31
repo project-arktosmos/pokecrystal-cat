@@ -1,10 +1,11 @@
-	db "POISON PIN@" ; species name
+	db "AGULLA VERÍ@" ; species name
 	dw 207, 440 ; height, weight
 
-	db   "It has a docile"
-	next "nature. If it is"
-	next "threatened with"
+	db   "Té una naturalesa"
+	next "dòcil. Si"
+	next "l'amenacen"
+	next "amb un atac, alça"
 
-	page "attack, it raises"
-	next "the barbs that are"
-	next "all over its body.@"
+	page "les punxes que li"
+	next "cobreixen tot"
+	next "el cos.@"

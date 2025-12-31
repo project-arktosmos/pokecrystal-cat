@@ -1,10 +1,10 @@
-	db "PUPPY@" ; species name
+	db "CADELL@" ; species name
 	dw 204, 420 ; height, weight
 
-	db   "It controls a big"
-	next "territory. If it"
-	next "detects an unknown"
+	db   "Controla un gran"
+	next "territori. Si"
+	next "detecta una olor"
 
-	page "smell, it roars"
-	next "loudly to force"
-	next "out the intruder.@"
+	page "desconeguda, udola"
+	next "fort per foragitar"
+	next "l'intrús.@"

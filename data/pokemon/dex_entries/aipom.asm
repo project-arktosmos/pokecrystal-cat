@@ -1,10 +1,10 @@
-	db "LONG TAIL@" ; species name
+	db "CUA LLARGA@" ; species name
 	dw 207, 250 ; height, weight
 
-	db   "It uses its tail"
-	next "to hang on to tree"
-	next "branches. It uses"
+	db   "Usa la cua per"
+	next "penjar-se de les"
+	next "branques. Utilitza"
 
-	page "its momentum to"
-	next "swing from one"
-	next "branch to another.@"
+	page "l'impuls per saltar"
+	next "d'una branca a una"
+	next "altra.@"

@@ -1,10 +1,11 @@
-	db "SUN@" ; species name
+	db "SOL@" ; species name
 	dw 207, 190 ; height, weight
 
-	db   "As the hot season"
-	next "approaches, the"
-	next "petals on this"
+	db "Quan s'acosta"
+	next "l'es-"
+	next "tació càlida, els"
+	next "pètals de la cara"
 
-	page "#MON's face"
-	next "become more vivid"
-	next "and lively.@"
+	page "d'aquest Pokémon"
+	next "es tornen més"
+	next "vius i animats.@"

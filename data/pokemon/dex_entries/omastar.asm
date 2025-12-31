@@ -1,10 +1,11 @@
-	db "SPIRAL@" ; species name
+	db "ESPIRAL@" ; species name
 	dw 303, 770 ; height, weight
 
-	db   "Its heavy shell"
-	next "allowed it to"
-	next "reach only nearby"
+	db   "La seva closca"
+	next "pesant només li"
+	next "permetia arribar a"
 
-	page "food. This could"
-	next "be the reason it"
-	next "is extinct.@"
+	page "menjar proper. Això"
+	next "podria ser la raó"
+	next "de la seva"
+	next "extinció.@"

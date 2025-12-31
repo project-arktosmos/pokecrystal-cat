@@ -1,10 +1,10 @@
-	db "WORM@" ; species name
+	db "CUC@" ; species name
 	dw 100, 60 ; height, weight
 
-	db   "It crawls into"
-	next "foliage where it"
-	next "camouflages itself"
+	db   "S'arrossega entre"
+	next "el fullatge on es"
+	next "camufla entre les"
 
-	page "among leaves that"
-	next "are the same color"
-	next "as its body.@"
+	page "fulles que tenen"
+	next "el mateix color"
+	next "que el seu cos.@"

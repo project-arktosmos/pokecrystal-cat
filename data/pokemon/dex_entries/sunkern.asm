@@ -1,10 +1,11 @@
-	db "SEED@" ; species name
+	db "LLAVOR@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "It is very weak."
-	next "Its only means of"
-	next "defense is to"
+	db   "És molt feble."
+	next "L'únic mètode de"
+	next "defensa és"
+	next "sacsejar"
 
-	page "shake its leaves"
-	next "desperately at its"
-	next "attacker.@"
+	page "les fulles deses-"
+	next "peradament davant"
+	next "l'atacant.@"

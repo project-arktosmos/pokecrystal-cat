@@ -1,10 +1,11 @@
-	db "SINGLEHORN@" ; species name
+	db "BANYA ÚNICA@" ; species name
 	dw 411, 1190 ; height, weight
 
-	db   "With its Herculean"
-	next "powers, it can"
-	next "easily throw arou-"
+	db "Amb els seus"
+	next "poders"
+	next "hercúlics, pot"
+	next "llançar fàcilment"
 
-	page "nd an object that"
-	next "is 100 times its"
-	next "own weight.@"
+	page "un objecte que pesa"
+	next "100 vegades el seu"
+	next "propi pes.@"

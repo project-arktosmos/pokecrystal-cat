@@ -1,10 +1,12 @@
-	db "DRAGON@" ; species name
+	db "DRAC@" ; species name
 	dw 1301, 360 ; height, weight
 
-	db   "It is called the"
-	next "divine #MON."
-	next "When its entire"
+	db "L'anomenen el"
+	next "#MON"
+	next "diví. Quan tot el"
+	next "seu cos"
+	next "s'il-lumina"
 
-	page "body brightens"
-	next "slightly, the"
-	next "weather changes.@"
+	page "lleugerament,"
+	next "el temps"
+	next "canvia.@"

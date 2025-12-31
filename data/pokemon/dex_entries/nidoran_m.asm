@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
+	db "AGULLA VERÍ@" ; species name
 	dw 108, 200 ; height, weight
 
-	db   "It constantly"
-	next "moves its large"
-	next "ears in many"
+	db   "Constantment mou"
+	next "les seves orelles"
+	next "grosses en moltes"
 
-	page "directions in"
-	next "order to detect"
-	next "danger right away.@"
+	page "direccions per"
+	next "detectar el perill"
+	next "immediatament.@"

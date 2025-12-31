@@ -1,10 +1,11 @@
-	db "RIVER CRAB@" ; species name
+	db "CRANC DE RIU@" ; species name
 	dw 104, 140 ; height, weight
 
-	db   "If it is unable"
-	next "to find food, it"
-	next "will absorb"
+	db   "Si no pot trobar"
+	next "menjar, absorbeix"
+	next "nutrients"
+	next "empassant"
 
-	page "nutrients by"
-	next "swallowing a"
-	next "mouthful of sand.@"
+	page "-se una bona"
+	next "glopada de"
+	next "sorra.@"

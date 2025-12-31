@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
+	db "FLAMA@" ; species name
 	dw 607, 1320 ; height, weight
 
-	db   "Legendary bird"
-	next "#MON. It is"
-	next "said to migrate"
+	db   "#MON ocell"
+	next "llegendari. Es diu"
+	next "que migra des del"
 
-	page "from the south"
-	next "along with the"
-	next "spring.@"
+	page "sud juntament"
+	next "amb la"
+	next "primavera.@"

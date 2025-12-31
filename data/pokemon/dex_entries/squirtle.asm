@@ -1,10 +1,10 @@
-	db "TINYTURTLE@" ; species name
+	db "TORTUGUETA@" ; species name
 	dw 108, 200 ; height, weight
 
-	db   "When it feels"
-	next "threatened, it"
-	next "draws its legs"
+	db   "Quan se sent"
+	next "amenaçat, amaga"
+	next "les potes dins la"
 
-	page "inside its shell"
-	next "and sprays water"
-	next "from its mouth.@"
+	page "closca i dispara"
+	next "aigua per la"
+	next "boca.@"

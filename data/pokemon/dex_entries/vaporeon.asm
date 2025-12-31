@@ -1,10 +1,10 @@
-	db "BUBBLE JET@" ; species name
+	db "RAIG BOMBOLLA@" ; species name
 	dw 303, 640 ; height, weight
 
-	db   "As it uses the"
-	next "fins on the tip"
-	next "of its tail to"
+	db   "Quan fa servir les"
+	next "aletes de la punta"
+	next "de la cua per"
 
-	page "swim, it blends"
-	next "with the water"
-	next "perfectly.@"
+	page "nedar, es fon"
+	next "perfectament"
+	next "amb l'aigua.@"

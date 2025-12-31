@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
+	db "FANG@" ; species name
 	dw 311, 660 ; height, weight
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db   "Mentre es mou, un"
+	next "verí molt fort en"
+	next "vessa, fent que el"
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	page "terra quedi estèril"
+	next "durant tres"
+	next "anys.@"

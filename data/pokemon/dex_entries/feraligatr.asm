@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
+	db "MANDÍBULA@" ; species name
 	dw 707, 1960 ; height, weight
 
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
+	db   "Tot i tenir un cos"
+	next "massiu, les seves"
+	next "potes del darrere"
 
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
+	page "li permeten moure's"
+	next "ràpidament, fins i"
+	next "tot per terra.@"

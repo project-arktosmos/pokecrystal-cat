@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
+	db "CINC PUNTS@" ; species name
 	dw 407, 780 ; height, weight
 
-	db   "In the daytime"
-	next "when it gets warm,"
-	next "it curls up inside"
+	db   "De dia quan fa"
+	next "calor, s'acotxa"
+	next "dins d'una fulla"
 
-	page "a big leaf and"
-	next "drifts off into"
-	next "a deep slumber.@"
+	page "gran i es deixa"
+	next "endur cap a un son"
+	next "profund.@"

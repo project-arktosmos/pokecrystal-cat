@@ -1,10 +1,10 @@
-	db "ATROCIOUS@" ; species name
+	db "ATROÇ@" ; species name
 	dw 2104, 5180 ; height, weight
 
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
+	db   "Apareix sempre que"
+	next "hi ha conflicte"
+	next "mundial, cremant"
 
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
+	page "qualsevol lloc"
+	next "pel qual"
+	next "viatja.@"

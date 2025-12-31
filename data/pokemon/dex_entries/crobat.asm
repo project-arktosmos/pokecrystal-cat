@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
+	db "RAT PENAT@" ; species name
 	dw 511, 1650 ; height, weight
 
-	db   "As a result of its"
-	next "pursuit of faster,"
-	next "yet more silent"
+	db   "Pel seu interès en"
+	next "un vol més ràpid i"
+	next "silenciós, li van"
 
-	page "flight, a new set"
-	next "of wings grew on"
-	next "its hind legs.@"
+	page "créixer ales noves"
+	next "a les potes del"
+	next "darrere.@"

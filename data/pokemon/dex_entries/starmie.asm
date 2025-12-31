@@ -1,10 +1,10 @@
-	db "MYSTERIOUS@" ; species name
+	db "MISTERIÓS@" ; species name
 	dw 307, 1760 ; height, weight
 
-	db   "It is said that it"
-	next "uses the seven-"
-	next "colored core of"
+	db   "Es diu que fa"
+	next "servir el nucli de"
+	next "set colors del cos"
 
-	page "its body to send"
-	next "electric waves"
-	next "into outer space.@"
+	page "per enviar ones"
+	next "elèctriques a"
+	next "l'espai exterior.@"

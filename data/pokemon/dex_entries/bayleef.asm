@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
+	db "FULLA@" ; species name
 	dw 311, 350 ; height, weight
 
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
+	db   "L'aroma que emana"
+	next "de les fulles del"
+	next "coll fa que"
 
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+	page "qualsevol que"
+	next "l'olori s'ompli"
+	next "d'energia.@"

@@ -1,10 +1,11 @@
-	db "WOOL@" ; species name
+	db "LLANA@" ; species name
 	dw 207, 290 ; height, weight
 
-	db   "Because of its"
-	next "rubbery, electric-"
-	next "ity-resistant"
+	db   "Gràcies a la seva"
+	next "pell de goma, re-"
+	next "sistent a l'elec-"
 
-	page "skin, it can store"
-	next "lots of electric-"
-	next "ity in its fur.@"
+	page "tricitat, pot emma-"
+	next "gatzemar molta"
+	next "càrrega al"
+	next "pelatge.@"

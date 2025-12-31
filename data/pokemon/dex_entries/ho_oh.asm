@@ -1,10 +1,10 @@
-	db "RAINBOW@" ; species name
+	db "ARC DE ST MARTÍ@" ; species name
 	dw 1206, 4390 ; height, weight
 
-	db   "It will reveal"
-	next "itself before a"
-	next "pure-hearted"
+	db   "Es revelarà davant"
+	next "d'un entrenador de"
+	next "cor pur fent"
 
-	page "trainer by shining"
-	next "its bright rain-"
-	next "bow-colored wings.@"
+	page "brillar les ales"
+	next "de colors de l'arc"
+	next "de Sant Martí.@"

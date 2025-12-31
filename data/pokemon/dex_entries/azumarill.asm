@@ -1,10 +1,10 @@
-	db "AQUARABBIT@" ; species name
+	db "CONILL AQUA@" ; species name
 	dw 207, 630 ; height, weight
 
-	db   "The bubble-like"
-	next "pattern on its"
-	next "stomach helps it"
+	db   "El patró de bombo-"
+	next "lles de la panxa"
+	next "l'ajuda a"
+	next "camuflar-"
 
-	page "camouflage itself"
-	next "when it's in the"
-	next "water.@"
+	page "se quan està a"
+	next "l'aigua.@"

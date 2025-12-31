@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
+	db "CAPGRÒS@" ; species name
 	dw 200, 270 ; height, weight
 
-	db   "The swirl on its"
-	next "belly is its"
-	next "insides showing"
+	db   "L'espiral del"
+	next "ventre són les"
+	next "entranyes que es"
 
-	page "through the skin."
-	next "It looks clearer"
-	next "after it eats.@"
+	page "veuen a través"
+	next "de la pell. Es veu"
+	next "més clar si menja.@"

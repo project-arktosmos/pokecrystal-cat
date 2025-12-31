@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
+	db "CAPGRÒS@" ; species name
 	dw 403, 1190 ; height, weight
 
-	db   "It can use its"
-	next "well-developed"
-	next "arms and legs to"
+	db   "Pot fer servir els"
+	next "braços i cames ben"
+	next "desenvolupats per"
 
-	page "run on the surface"
-	next "of the water for a"
-	next "split second.@"
+	page "córrer sobre l'aigua"
+	next "durant una fracció"
+	next "de segon.@"

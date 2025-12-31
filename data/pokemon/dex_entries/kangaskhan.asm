@@ -1,10 +1,9 @@
-	db "PARENT@" ; species name
+	db "PROGENITOR@" ; species name
 	dw 703, 1760 ; height, weight
 
-	db   "To avoid"
-	next "crushing the"
-	next "baby it carries in"
+	db   "Per no esclafar la"
+	next "cria que porta a"
+	next "la"
+	next "bossa, sempre dorm"
 
-	page "its pouch, it"
-	next "always sleeps"
-	next "standing up.@"
+	page "dret.@"

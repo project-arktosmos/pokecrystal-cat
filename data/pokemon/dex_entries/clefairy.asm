@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
+	db "FADA@" ; species name
 	dw 200, 170 ; height, weight
 
-	db   "Though rarely"
-	next "seen, it becomes"
-	next "easier to spot,"
+	db   "Tot i ser rar de"
+	next "veure, es detecta"
+	next "més fàcilment,"
 
-	page "for some reason,"
-	next "on the night of a "
-	next "full moon.@"
+	page "per algun motiu,"
+	next "les nits de"
+	next "lluna plena.@"

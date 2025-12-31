@@ -1,10 +1,11 @@
-	db "LONG BODY@" ; species name
+	db "COS LLARG@" ; species name
 	dw 511, 720 ; height, weight
 
-	db   "It lives in narrow"
-	next "burrows that fit"
-	next "its slim body. The"
+	db "Viu en caus"
+	next "estrets"
+	next "que s'ajusten al"
+	next "seu cos prim. Com"
 
-	page "deeper the nests"
-	next "go, the more maze-"
-	next "like they become.@"
+	page "més profunds són,"
+	next "més laberíntics"
+	next "es tornen.@"

@@ -1,10 +1,12 @@
-	db "FIVE STAR@" ; species name
+	db "CINC PUNTS@" ; species name
 	dw 303, 240 ; height, weight
 
-	db   "It is timid and"
-	next "clusters together"
-	next "with others. The"
+	db "És tímid i"
+	next "s'ajunta"
+	next "amb altres. El"
+	next "fluid secretat"
+	next "pels"
 
-	page "fluid secreted by"
-	next "its feet indicates"
-	next "its location.@"
+	page "seus peus indica"
+	next "la seva"
+	next "localització.@"

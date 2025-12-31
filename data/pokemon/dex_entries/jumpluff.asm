@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
+	db "COTÓ HERBA@" ; species name
 	dw 207, 70 ; height, weight
 
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
+	db   "Fins i tot amb el"
+	next "vent més fort, pot"
+	next "controlar el cotó"
 
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"
+	page "per anar a qual-"
+	next "sevol lloc del"
+	next "món que vulgui.@"

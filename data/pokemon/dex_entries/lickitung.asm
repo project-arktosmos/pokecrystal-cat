@@ -1,10 +1,10 @@
-	db "LICKING@" ; species name
+	db "LLEPADA@" ; species name
 	dw 311, 1440 ; height, weight
 
-	db   "It has a tongue"
-	next "that is over 6'6''"
-	next "long. It uses this"
+	db   "Té una llengua de"
+	next "més de 2 metres."
+	next "Fa servir aquesta"
 
-	page "long tongue to"
-	next "lick its body"
-	next "clean.@"
+	page "llarga llengua"
+	next "per llepar-se"
+	next "el cos net.@"

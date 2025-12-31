@@ -1,10 +1,10 @@
-	db "KITE@" ; species name
+	db "ESTEL@" ; species name
 	dw 611, 4850 ; height, weight
 
-	db   "It swims along"
-	next "freely, eating"
-	next "things that swim"
+	db   "Neda lliurement,"
+	next "menjant coses que"
+	next "entren a la seva"
 
-	page "into its mouth."
-	next "Its whole body is"
-	next "very coarse.@"
+	page "boca. Tot el seu"
+	next "cos és molt"
+	next "aspre.@"

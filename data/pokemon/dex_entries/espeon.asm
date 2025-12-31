@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
+	db "SOL@" ; species name
 	dw 211, 580 ; height, weight
 
-	db   "The tip of its"
-	next "forked tail"
-	next "quivers when it is"
+	db   "La punta de la cua"
+	next "bifurcada tremola"
+	next "quan prediu el"
 
-	page "predicting its"
-	next "opponent's next"
-	next "move.@"
+	page "pròxim moviment"
+	next "del seu"
+	next "oponent.@"

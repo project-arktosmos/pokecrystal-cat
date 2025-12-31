@@ -1,10 +1,10 @@
-	db "LITTLE BEAR@" ; species name
+	db "OSSET@" ; species name
 	dw 200, 190 ; height, weight
 
-	db   "It always licks"
-	next "honey. Its palm"
-	next "tastes sweet"
+	db   "Sempre llepa mel."
+	next "El seu palmell té"
+	next "un gust dolç per"
 
-	page "because of all the"
-	next "honey it has"
-	next "absorbed.@"
+	page "tota la mel que"
+	next "ha"
+	next "absorbit.@"

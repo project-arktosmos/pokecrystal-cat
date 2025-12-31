@@ -1,10 +1,10 @@
 	db "COBRA@" ; species name
 	dw 1106, 1430 ; height, weight
 
-	db   "To intimidate"
-	next "foes, it spreads"
-	next "its chest wide and"
+	db   "Per intimidar els"
+	next "enemics, obre molt"
+	next "el pit i fa sons"
 
-	page "makes eerie sounds"
-	next "by expelling air"
-	next "from its mouth.@"
+	page "estranys expulsant"
+	next "aire per la"
+	next "boca.@"

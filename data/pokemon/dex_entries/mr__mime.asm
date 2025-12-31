@@ -1,10 +1,10 @@
-	db "BARRIER@" ; species name
+	db "BARRERA@" ; species name
 	dw 403, 1200 ; height, weight
 
-	db   "It uses the"
-	next "mysterious"
-	next "power it has in"
+	db   "Fa servir el poder"
+	next "misteriós que té"
+	next "als dits per"
 
-	page "its fingers to"
-	next "solidify air into"
-	next "an invisible wall.@"
+	page "solidificar l'aire"
+	next "en una paret"
+	next "invisible.@"

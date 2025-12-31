@@ -1,10 +1,10 @@
-	db "DOPEY@" ; species name
+	db "ENZE@" ; species name
 	dw 311, 790 ; height, weight
 
-	db   "It is always so"
-	next "absent-minded that"
-	next "it won't react,"
+	db   "Sempre està tan"
+	next "absent que no"
+	next "reaccionarà ni si"
 
-	page "even if its"
-	next "flavorful tail is"
-	next "bitten.@"
+	page "li mosseguen la"
+	next "seva cua tan"
+	next "saborosa.@"

@@ -1,10 +1,10 @@
-	db "IMITATION@" ; species name
+	db "IMITACIÓ@" ; species name
 	dw 311, 840 ; height, weight
 
-	db   "If a tree branch"
-	next "shakes when there"
-	next "is no wind, it's a"
+	db   "Si una branca es"
+	next "mou quan no fa"
+	next "vent, és un"
 
-	page "SUDOWOODO, not a"
-	next "tree. It hides"
-	next "from the rain.@"
+	page "Sudowoodo, no un"
+	next "arbre. S'amaga"
+	next "de la pluja.@"

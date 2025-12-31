@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
+	db "HIPNOSI@" ; species name
 	dw 503, 1670 ; height, weight
 
-	db   "The longer it"
-	next "swings its"
-	next "pendulum, the"
+	db   "Com més temps"
+	next "balanceja el"
+	next "pèndol, més duren"
 
-	page "longer the effects"
-	next "of its hypnosis"
-	next "last.@"
+	page "els efectes de la"
+	next "seva"
+	next "hipnosi.@"

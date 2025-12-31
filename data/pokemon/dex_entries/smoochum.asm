@@ -1,10 +1,10 @@
-	db "KISS@" ; species name
+	db "PETÓ@" ; species name
 	dw 104, 130 ; height, weight
 
-	db   "The sensitivity of"
-	next "its lips develops"
-	next "most quickly."
+	db   "La sensibilitat"
+	next "dels llavis es"
+	next "desenvolupa més"
 
-	page "It uses them to"
-	next "try to identify"
-	next "unknown objects.@"
+	page "ràpid. Els fa"
+	next "servir per identi-"
+	next "ficar objectes.@"

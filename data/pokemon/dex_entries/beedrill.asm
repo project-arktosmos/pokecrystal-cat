@@ -1,10 +1,10 @@
-	db "POISON BEE@" ; species name
+	db "ABELLA VERÍ@" ; species name
 	dw 303, 650 ; height, weight
 
-	db   "It uses sharp,"
-	next "poisonous stings"
-	next "to defeat prey,"
+	db   "Fa servir fiblons"
+	next "verinosos per"
+	next "derrotar preses,"
 
-	page "then takes the"
-	next "victim back to its"
-	next "nest for food.@"
+	page "després les porta"
+	next "al seu niu com"
+	next "a menjar.@"

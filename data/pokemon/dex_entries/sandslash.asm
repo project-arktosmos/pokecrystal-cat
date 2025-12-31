@@ -1,10 +1,11 @@
-	db "MOUSE@" ; species name
+	db "RATOLÍ@" ; species name
 	dw 303, 650 ; height, weight
 
-	db   "Adept at climbing"
-	next "trees, it rolls"
-	next "into a spiny ball,"
+	db "Hàbil pujant"
+	next "arbres,"
+	next "s'enrotlla formant"
+	next "una bola punxeguda"
 
-	page "then attacks its"
-	next "enemies from"
-	next "above.@"
+	page "i després ataca"
+	next "els enemics"
+	next "des de dalt.@"

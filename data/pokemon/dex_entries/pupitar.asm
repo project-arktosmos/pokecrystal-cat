@@ -1,10 +1,10 @@
-	db "HARD SHELL@" ; species name
+	db "CLOSCA DURA@" ; species name
 	dw 311, 3350 ; height, weight
 
-	db   "It will not stay"
-	next "still, even while"
-	next "it's a pupa. It"
+	db   "No es quedarà"
+	next "quiet ni quan és"
+	next "pupa. Ja té braços"
 
-	page "already has arms"
-	next "and legs under its"
-	next "solid shell.@"
+	page "i cames sota la"
+	next "closca"
+	next "sòlida.@"

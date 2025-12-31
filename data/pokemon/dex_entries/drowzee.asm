@@ -1,10 +1,9 @@
-	db "HYPNOSIS@" ; species name
+	db "HIPNOSI@" ; species name
 	dw 303, 710 ; height, weight
 
-	db   "When it twitches"
-	next "its nose, it can"
-	next "tell where someone"
+	db   "Quan mou el nas,"
+	next "pot saber on dorm"
+	next "algú i què està"
 
-	page "is sleeping and"
-	next "what that person"
-	next "is dreaming about.@"
+	page "somiant aquella"
+	next "persona.@"

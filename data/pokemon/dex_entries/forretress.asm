@@ -1,10 +1,11 @@
-	db "BAGWORM@" ; species name
+	db "CUC BOSSA@" ; species name
 	dw 311, 2770 ; height, weight
 
-	db   "Usually found"
-	next "hanging on to a"
-	next "fat tree trunk. It"
+	db "Normalment es"
+	next "troba"
+	next "penjat d'un tronc"
+	next "gruixut. Dispara"
 
-	page "shoots out bits of"
-	next "its shell when it"
-	next "sees action.@"
+	page "trossos de la seva"
+	next "closca quan veu"
+	next "acció.@"

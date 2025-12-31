@@ -1,10 +1,12 @@
-	db "MOLD@" ; species name
+	db "FLORIDURA@" ; species name
 	dw 200, 450 ; height, weight
 
-	db   "The fluid secreted"
-	next "by its toes carves"
-	next "holes in rocks for"
+	db   "El fluid dels dits"
+	next "dels peus excava"
+	next "forats a les"
+	next "roques"
 
-	page "nesting and can be"
-	next "mixed with BERRIES"
-	next "to make a drink.@"
+	page "per fer nius i es"
+	next "pot barrejar amb"
+	next "baies per fer"
+	next "beure.@"

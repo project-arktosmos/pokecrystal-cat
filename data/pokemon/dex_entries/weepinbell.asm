@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
+	db "PAPAMOSQUES@" ; species name
 	dw 303, 140 ; height, weight
 
-	db   "When it's hungry,"
-	next "it swings its"
-	next "razor-sharp"
+	db   "Quan té gana, mou"
+	next "les fulles esmola-"
+	next "des, tallant qual-"
 
-	page "leaves, slicing up"
-	next "any unlucky object"
-	next "nearby for food.@"
+	page "sevol objecte a"
+	next "prop per"
+	next "menjar.@"

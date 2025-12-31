@@ -1,10 +1,11 @@
-	db "DARK@" ; species name
+	db "FOSC@" ; species name
 	dw 200, 240 ; height, weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db   "A prop de l'alba,"
+	next "l'udol sinistre"
+	next "ressona per la"
+	next "zona"
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"
+	page "per anunciar que"
+	next "aquest és el seu"
+	next "territori.@"

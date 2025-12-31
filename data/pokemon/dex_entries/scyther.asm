@@ -1,10 +1,11 @@
-	db "MANTIS@" ; species name
+	db "PREGADÉU@" ; species name
 	dw 411, 1230 ; height, weight
 
-	db   "It's very proud of"
-	next "its speed. It"
-	next "moves so fast that"
+	db   "Està molt orgullós"
+	next "de la seva"
+	next "rapidesa"
+	next "Es mou tan ràpid"
 
-	page "its opponent does"
-	next "not even know what"
-	next "knocked it down.@"
+	page "que l'oponent no"
+	next "sap ni què l'ha"
+	next "tombat.@"

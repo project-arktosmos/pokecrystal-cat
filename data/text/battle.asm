@@ -1,99 +1,103 @@
 BattleText:: ; used only for BANK(BattleText)
 
 BattleText_PlayerPickedUpPayDayMoney:
-	text "<PLAYER> picked up"
-	line "¥@"
+	text "<PLAYER> ha"
+	line "recollit"
+	cont "¥@"
 	text_decimal wPayDayMoney, 3, 6
 	text "!"
 	prompt
 
 WildPokemonAppearedText:
-	text "Wild @"
+	text "Un @"
 	text_ram wEnemyMonNickname
-	text_start
-	line "appeared!"
+	text " salvatge"
+	line "ha aparegut!"
 	prompt
 
 HookedPokemonAttackedText:
-	text "The hooked"
+	text "L'enganxat"
 	line "@"
 	text_ram wEnemyMonNickname
 	text_start
-	cont "attacked!"
+	cont "ha atacat!"
 	prompt
 
 PokemonFellFromTreeText:
 	text_ram wEnemyMonNickname
-	text " fell"
-	line "out of the tree!"
+	text " ha caigut"
+	line "de l'arbre!"
 	prompt
 
 WildCelebiAppearedText:
-	text "Wild @"
+	text "Un @"
 	text_ram wEnemyMonNickname
-	text_start
-	line "appeared!"
+	text " salvatge"
+	line "ha aparegut!"
 	prompt
 
 WantsToBattleText::
 	text "<ENEMY>"
-	line "wants to battle!"
+	line "vol lluitar!"
 	prompt
 
 BattleText_WildFled:
-	text "Wild @"
+	text "El @"
 	text_ram wEnemyMonNickname
-	text_start
-	line "fled!"
+	text " salvatge"
+	line "ha fugit!"
 	prompt
 
 BattleText_EnemyFled:
-	text "Enemy @"
+	text "L'enemic @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fled!"
+	line "ha fugit!"
 	prompt
 
 HurtByPoisonText:
 	text "<USER>"
-	line "is hurt by poison!"
+	line "pateix pel verí!"
 	prompt
 
 HurtByBurnText:
-	text "<USER>'s"
-	line "hurt by its burn!"
+	text "<USER>"
+	line "pateix la cremada!"
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED saps"
-	line "<USER>!"
+	text "DRENAVIDES"
+	line "absorbeix"
+	cont "<USER>!"
 	prompt
 
 HasANightmareText:
 	text "<USER>"
-	line "has a NIGHTMARE!"
+	line "té un MALSON!"
 	prompt
 
 HurtByCurseText:
-	text "<USER>'s"
-	line "hurt by the CURSE!"
+	text "<USER>"
+	line "pateix la"
+	cont "MALEDICCIÓ!"
 	prompt
 
 SandstormHitsText:
-	text "The SANDSTORM hits"
-	line "<USER>!"
+	text "La TEMPESTA SORRA"
+	line "colpeja"
+	cont "<USER>!"
 	prompt
 
 PerishCountText:
-	text "<USER>'s"
-	line "PERISH count is @"
+	text "El compte de"
+	line "<USER> és @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BattleText_TargetRecoveredWithItem:
 	text "<TARGET>"
-	line "recovered with"
+	line "s'ha recuperat amb"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -101,7 +105,8 @@ BattleText_TargetRecoveredWithItem:
 
 BattleText_UserRecoveredPPUsing:
 	text "<USER>"
-	line "recovered PP using"
+	line "ha recuperat PP"
+	cont "amb"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -109,241 +114,255 @@ BattleText_UserRecoveredPPUsing:
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
-	line "was hit by FUTURE"
-	cont "SIGHT!"
+	line "ha rebut l'atac"
+	cont "PREMONICIÓ!"
 	prompt
 
 BattleText_SafeguardFaded:
-	text "<USER>'s"
-	line "SAFEGUARD faded!"
+	text "La SALVAGUARDA de"
+	line "<USER> s'ha"
+	cont "esgotat!"
 	prompt
 
 BattleText_MonsLightScreenFell:
+	text "La PANTALLA LLUM"
+	line "de @"
 	text_ram wStringBuffer1
-	text " #MON's"
-	line "LIGHT SCREEN fell!"
+	text " #MON"
+	cont "s'ha esgotat!"
 	prompt
 
 BattleText_MonsReflectFaded:
+	text "El REFLEX de"
+	line "@"
 	text_ram wStringBuffer1
-	text " #MON's"
-	line "REFLECT faded!"
+	text " #MON"
+	cont "s'ha esgotat!"
 	prompt
 
 BattleText_RainContinuesToFall:
-	text "Rain continues to"
-	line "fall."
+	text "Continua plovent."
 	prompt
 
 BattleText_TheSunlightIsStrong:
-	text "The sunlight is"
-	line "strong."
+	text "El sol és molt"
+	line "intens."
 	prompt
 
 BattleText_TheSandstormRages:
-	text "The SANDSTORM"
-	line "rages."
+	text "La TEMPESTA SORRA"
+	line "continua."
 	prompt
 
 BattleText_TheRainStopped:
-	text "The rain stopped."
+	text "Ha parat de"
+	line "ploure."
 	prompt
 
 BattleText_TheSunlightFaded:
-	text "The sunlight"
-	line "faded."
+	text "La llum del sol"
+	line "s'ha atenuat."
 	prompt
 
 BattleText_TheSandstormSubsided:
-	text "The SANDSTORM"
-	line "subsided."
+	text "La TEMPESTA SORRA"
+	line "ha minvat."
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "Enemy @"
+	text "L'enemic @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fainted!"
+	line "ha caigut!"
 	prompt
 
 GotMoneyForWinningText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> ha guanyat"
+	line "¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "for winning!"
+	cont "per la victòria!"
 	prompt
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "was defeated!"
+	line "ha estat derrotat!"
 	prompt
 
 TiedAgainstText:
-	text "Tied against"
+	text "Empat contra"
 	line "<ENEMY>!"
 	prompt
 
 SentSomeToMomText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> ha guanyat"
+	line "¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "for winning!"
-	cont "Sent some to MOM!"
+	cont "per la victòria!"
+	cont "N'ha enviat a"
+	cont "MARE!"
 	prompt
 
 SentHalfToMomText:
-	text "Sent half to MOM!"
+	text "N'ha enviat la"
+	line "meitat a MARE!"
 	prompt
 
 SentAllToMomText:
-	text "Sent all to MOM!"
+	text "Ho ha enviat tot"
+	line "a MARE!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced
-	text "<RIVAL>: Huh? I"
-	line "should've chosen"
-	cont "your #MON!"
+	text "<RIVAL>: Eh?"
+	line "Hauria"
+	cont "d'haver triat el"
+	cont "teu #MON!"
 	prompt
 
 BattleText_MonFainted:
 	text_ram wBattleMonNickname
 	text_start
-	line "fainted!"
+	line "ha caigut!"
 	prompt
 
 BattleText_UseNextMon:
-	text "Use next #MON?"
+	text "Usar el següent"
+	line "#MON?"
 	done
 
 UnusedRivalWinText: ; unreferenced
-	text "<RIVAL>: Yes!"
-	line "I guess I chose a"
-	cont "good #MON!"
+	text "<RIVAL>: Sí!"
+	line "He triat un bon"
+	cont "#MON!"
 	prompt
 
 LostAgainstText:
-	text "Lost against"
+	text "Has perdut contra"
 	line "<ENEMY>!"
 	prompt
 
 BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text "<ENEMY>"
-	line "is about to use"
+	line "enviarà a"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "."
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Voldrà <PLAYER>"
+	line "canviar de"
+	cont "#MON?"
 	done
 
 BattleText_EnemySentOut:
 	text "<ENEMY>"
-	line "sent out"
+	line "ha enviat a"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "!"
 	done
 
 BattleText_TheresNoWillToBattle:
-	text "There's no will to"
-	line "battle!"
+	text "No hi ha ganes"
+	line "de lluitar!"
 	prompt
 
 BattleText_AnEGGCantBattle:
-	text "An EGG can't"
-	line "battle!"
+	text "Un OU no pot"
+	line "lluitar!"
 	prompt
 
 BattleText_CantEscape2:
-	text "Can't escape!"
+	text "No pot fugir!"
 	prompt
 
 BattleText_TheresNoEscapeFromTrainerBattle:
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "No! No pots fugir"
+	line "d'un combat contra"
+	cont "un entrenador!"
 	prompt
 
 BattleText_GotAwaySafely:
-	text "Got away safely!"
+	text "Has fugit!"
 	prompt
 
 BattleText_UserFledUsingAStringBuffer1:
 	text "<USER>"
-	line "fled using a"
+	line "ha fugit amb"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 BattleText_CantEscape:
-	text "Can't escape!"
+	text "No pot fugir!"
 	prompt
 
 BattleText_UserHurtBySpikes:
-	text "<USER>'s"
-	line "hurt by SPIKES!"
+	text "<USER>"
+	line "pateix les PÚES!"
 	prompt
 
 RecoveredUsingText:
 	text "<TARGET>"
-	line "recovered using a"
+	line "s'ha recuperat amb"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 BattleText_UsersStringBuffer1Activated:
-	text "<USER>'s"
+	text "S'ha activat"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "activated!"
+	cont "de <USER>!"
 	prompt
 
 BattleText_ItemsCantBeUsedHere:
-	text "Items can't be"
-	line "used here."
+	text "Aquí no es poden"
+	line "usar objectes."
 	prompt
 
 BattleText_MonIsAlreadyOut:
 	text_ram wBattleMonNickname
 	text_start
-	line "is already out."
+	line "ja està lluitant."
 	prompt
 
 BattleText_MonCantBeRecalled:
 	text_ram wBattleMonNickname
 	text_start
-	line "can't be recalled!"
+	line "no pot tornar!"
 	prompt
 
 BattleText_TheresNoPPLeftForThisMove:
-	text "There's no PP left"
-	line "for this move!"
+	text "No queden PP per"
+	line "a aquest moviment!"
 	prompt
 
 BattleText_TheMoveIsDisabled:
-	text "The move is"
-	line "DISABLED!"
+	text "El moviment està"
+	line "ANUL·LAT!"
 	prompt
 
 BattleText_MonHasNoMovesLeft:
 	text_ram wBattleMonNickname
 	text_start
-	line "has no moves left!"
+	line "no té moviments!"
 	done
 
 BattleText_TargetsEncoreEnded:
-	text "<TARGET>'s"
-	line "ENCORE ended!"
+	text "L'OTRA VEG. de"
+	line "<TARGET> ha"
+	cont "acabat!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
-	text " grew to"
-	line "level @"
+	text " ha pujat"
+	line "al nivell @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79
@@ -352,85 +371,87 @@ BattleText_StringBuffer1GrewToLevel:
 	text_end ; unreferenced
 
 BattleText_WildMonIsEating:
-	text "Wild @"
+	text "El @"
 	text_ram wEnemyMonNickname
-	text_start
-	line "is eating!"
+	text " salvatge"
+	line "està menjant!"
 	prompt
 
 BattleText_WildMonIsAngry:
-	text "Wild @"
+	text "El @"
 	text_ram wEnemyMonNickname
-	text_start
-	line "is angry!"
+	text " salvatge"
+	line "està enfadat!"
 	prompt
 
 FastAsleepText:
 	text "<USER>"
-	line "is fast asleep!"
+	line "està profundament"
+	cont "adormit!"
 	prompt
 
 WokeUpText:
 	text "<USER>"
-	line "woke up!"
+	line "s'ha despertat!"
 	prompt
 
 FrozenSolidText:
 	text "<USER>"
-	line "is frozen solid!"
+	line "està congelat!"
 	prompt
 
 FlinchedText:
 	text "<USER>"
-	line "flinched!"
+	line "s'ha estremit!"
 	prompt
 
 MustRechargeText:
 	text "<USER>"
-	line "must recharge!"
+	line "ha de recarregar!"
 	prompt
 
 DisabledNoMoreText:
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER>"
+	line "ja no està"
+	cont "anul·lat!"
 	prompt
 
 IsConfusedText:
 	text "<USER>"
-	line "is confused!"
+	line "està confús!"
 	prompt
 
 HurtItselfText:
-	text "It hurt itself in"
-	line "its confusion!"
+	text "S'ha fet mal"
+	line "per la confusió!"
 	prompt
 
 ConfusedNoMoreText:
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER>"
+	line "ja no està confús!"
 	prompt
 
 BecameConfusedText:
 	text "<TARGET>"
-	line "became confused!"
+	line "està confús!"
 	prompt
 
 BattleText_ItemHealedConfusion:
-	text "A @"
+	text "Un @"
 	text_ram wStringBuffer1
-	text " rid"
-	line "<TARGET>"
-	cont "of its confusion."
+	text " ha"
+	line "curat la confusió"
+	cont "de <TARGET>."
 	prompt
 
 AlreadyConfusedText:
-	text "<TARGET>'s"
-	line "already confused!"
+	text "<TARGET>"
+	line "ja està confús!"
 	prompt
 
 BattleText_UsersHurtByStringBuffer1:
-	text "<USER>'s"
-	line "hurt by"
+	text "<USER>"
+	line "pateix"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -438,7 +459,7 @@ BattleText_UsersHurtByStringBuffer1:
 
 BattleText_UserWasReleasedFromStringBuffer1:
 	text "<USER>"
-	line "was released from"
+	line "s'ha alliberat de"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -446,45 +467,47 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>"
-	line "used BIND on"
-	cont "<TARGET>!"
+	line "ha usat LLIGAM"
+	cont "contra <TARGET>!"
 	prompt
 
 WhirlpoolTrapText:
 	text "<TARGET>"
-	line "was trapped!"
+	line "ha quedat atrapat!"
 	prompt
 
 FireSpinTrapText:
 	text "<TARGET>"
-	line "was trapped!"
+	line "ha quedat atrapat!"
 	prompt
 
 WrappedByText:
 	text "<TARGET>"
-	line "was WRAPPED by"
-	cont "<USER>!"
+	line "ha estat"
+	cont "EMBOLCALLAT"
+	cont "per <USER>!"
 	prompt
 
 ClampedByText:
 	text "<TARGET>"
-	line "was CLAMPED by"
-	cont "<USER>!"
+	line "ha estat PETXAT"
+	cont "per <USER>!"
 	prompt
 
 StoringEnergyText:
 	text "<USER>"
-	line "is storing energy!"
+	line "acumula energia!"
 	prompt
 
 UnleashedEnergyText:
 	text "<USER>"
-	line "unleashed energy!"
+	line "allibera"
+	cont "l'energia!"
 	prompt
 
 HungOnText:
 	text "<TARGET>"
-	line "hung on with"
+	line "ha resistit amb"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -492,73 +515,74 @@ HungOnText:
 
 EnduredText:
 	text "<TARGET>"
-	line "ENDURED the hit!"
+	line "ha AGUANTAT el"
+	cont "cop!"
 	prompt
 
 InLoveWithText:
 	text "<USER>"
-	line "is in love with"
+	line "s'ha enamorat de"
 	cont "<TARGET>!"
 	prompt
 
 InfatuationText:
-	text "<USER>'s"
-	line "infatuation kept"
-	cont "it from attacking!"
+	text "L'enamorament de"
+	line "<USER> l'ha"
+	cont "impedit atacar!"
 	prompt
 
 DisabledMoveText:
-	text "<USER>'s"
-	line "@"
+	text "@"
 	text_ram wStringBuffer1
-	text " is"
-	cont "DISABLED!"
+	text " de"
+	line "<USER> està"
+	cont "ANUL·LAT!"
 	prompt
 
 LoafingAroundText:
 	text_ram wBattleMonNickname
-	text " is"
-	line "loafing around."
+	text " està"
+	line "ganduleig."
 	prompt
 
 BeganToNapText:
 	text_ram wBattleMonNickname
-	text " began"
-	line "to nap!"
+	text " ha"
+	line "començat a dormir!"
 	prompt
 
 WontObeyText:
 	text_ram wBattleMonNickname
-	text " won't"
-	line "obey!"
+	text " no"
+	line "obeeix!"
 	prompt
 
 TurnedAwayText:
 	text_ram wBattleMonNickname
-	text " turned"
-	line "away!"
+	text " ha"
+	line "girat l'esquena!"
 	prompt
 
 IgnoredOrdersText:
 	text_ram wBattleMonNickname
-	text " ignored"
-	line "orders!"
+	text " ignora"
+	line "les ordres!"
 	prompt
 
 IgnoredSleepingText:
 	text_ram wBattleMonNickname
-	text " ignored"
-	line "orders…sleeping!"
+	text " ignora"
+	line "ordres…i dorm!"
 	prompt
 
 NoPPLeftText:
-	text "But no PP is left"
-	line "for the move!"
+	text "Però no queden PP"
+	line "per al moviment!"
 	prompt
 
 HasNoPPLeftText:
 	text "<USER>"
-	line "has no PP left for"
+	line "no té PP per a"
 	cont "@"
 	text_ram wStringBuffer2
 	text "!"
@@ -566,262 +590,278 @@ HasNoPPLeftText:
 
 WentToSleepText:
 	text "<USER>"
-	line "went to sleep!"
+	line "s'ha adormit!"
 	done
 
 RestedText:
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "s'ha adormit i"
+	cont "s'ha recuperat!"
 	done
 
 RegainedHealthText:
 	text "<USER>"
-	line "regained health!"
+	line "ha recuperat"
+	cont "salut!"
 	prompt
 
 AttackMissedText:
-	text "<USER>'s"
-	line "attack missed!"
+	text "L'atac de"
+	line "<USER>"
+	cont "ha fallat!"
 	prompt
 
 AttackMissed2Text:
-	text "<USER>'s"
-	line "attack missed!"
+	text "L'atac de"
+	line "<USER>"
+	cont "ha fallat!"
 	prompt
 
 CrashedText:
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "ha caigut a terra!"
 	prompt
 
 UnaffectedText:
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET>"
+	line "no s'ha vist"
+	cont "afectat!"
 	prompt
 
 DoesntAffectText:
-	text "It doesn't affect"
+	text "No afecta"
 	line "<TARGET>!"
 	prompt
 
 CriticalHitText:
-	text "A critical hit!"
+	text "Cop crític!"
 	prompt
 
 OneHitKOText:
-	text "It's a one-hit KO!"
+	text "K.O. d'un sol cop!"
 	prompt
 
 SuperEffectiveText:
-	text "It's super-"
-	line "effective!"
+	text "És molt"
+	line "efectiu!"
 	prompt
 
 NotVeryEffectiveText:
-	text "It's not very"
-	line "effective…"
+	text "No és gaire"
+	line "efectiu…"
 	prompt
 
 TookDownWithItText:
 	text "<TARGET>"
-	line "took down with it,"
+	line "s'ha emportat"
 	cont "<USER>!"
 	prompt
 
 RageBuildingText:
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "La FÚRIA de"
+	line "<USER>"
+	cont "augmenta!"
 	prompt
 
 GotAnEncoreText:
 	text "<TARGET>"
-	line "got an ENCORE!"
+	line "ha rebut un OTRA"
+	cont "VEG.!"
 	prompt
 
 SharedPainText:
-	text "The battlers"
-	line "shared pain!"
+	text "Els lluitadors"
+	line "han compartit"
+	cont "dolor!"
 	prompt
 
 TookAimText:
 	text "<USER>"
-	line "took aim!"
+	line "ha apuntat!"
 	prompt
 
 SketchedText:
 	text "<USER>"
-	line "SKETCHED"
+	line "ha fet un ESBÓS de"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 DestinyBondEffectText:
-	text "<USER>'s"
-	line "trying to take its"
-	cont "opponent with it!"
+	text "<USER>"
+	line "vol emportar-se el"
+	cont "seu rival!"
 	prompt
 
 SpiteEffectText:
-	text "<TARGET>'s"
-	line "@"
+	text "El @"
 	text_ram wStringBuffer1
-	text " was"
-	cont "reduced by @"
+	text " de"
+	line "<TARGET> s'ha"
+	cont "reduït en @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BellChimedText:
-	text "A bell chimed!"
-	line ""
+	text "Una campana ha"
+	line "sonat!"
 	prompt
 
 FellAsleepText:
 	text "<TARGET>"
-	line "fell asleep!"
+	line "s'ha adormit!"
 	prompt
 
 AlreadyAsleepText:
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>"
+	line "ja està adormit!"
 	prompt
 
 WasPoisonedText:
 	text "<TARGET>"
-	line "was poisoned!"
+	line "ha estat"
+	cont "enverinat!"
 	prompt
 
 BadlyPoisonedText:
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET> està"
+	line "greument"
+	cont "enverinat!"
 	prompt
 
 AlreadyPoisonedText:
-	text "<TARGET>'s"
-	line "already poisoned!"
+	text "<TARGET>"
+	line "ja està enverinat!"
 	prompt
 
 SuckedHealthText:
-	text "Sucked health from"
-	line "<TARGET>!"
+	text "Ha absorbit salut"
+	line "de <TARGET>!"
 	prompt
 
 DreamEatenText:
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "El somni de"
+	line "<TARGET> s'ha"
+	cont "menjat!"
 	prompt
 
 WasBurnedText:
 	text "<TARGET>"
-	line "was burned!"
+	line "s'ha cremat!"
 	prompt
 
 DefrostedOpponentText:
 	text "<TARGET>"
-	line "was defrosted!"
+	line "s'ha descongelat!"
 	prompt
 
 WasFrozenText:
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "ha quedat"
+	cont "congelat!"
 	prompt
 
 WontRiseAnymoreText:
-	text "<USER>'s"
-	line "@"
+	text "El @"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "rise anymore!"
+	text " de"
+	line "<USER> no pot"
+	cont "pujar més!"
 	prompt
 
 WontDropAnymoreText:
-	text "<TARGET>'s"
-	line "@"
+	text "El @"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "drop anymore!"
+	text " de"
+	line "<TARGET> no pot"
+	cont "baixar més!"
 	prompt
 
 FledFromBattleText::
 	text "<USER>"
-	line "fled from battle!"
+	line "ha fugit del"
+	cont "combat!"
 	prompt
 
 FledInFearText:
 	text "<TARGET>"
-	line "fled in fear!"
+	line "ha fugit de por!"
 	prompt
 
 BlownAwayText:
 	text "<TARGET>"
-	line "was blown away!"
+	line "ha estat empentat!"
 	prompt
 
 PlayerHitTimesText:
-	text "Hit @"
+	text "Ha colpejat @"
 	text_decimal wPlayerDamageTaken, 1, 1
-	text " times!"
+	text " cops!"
 	prompt
 
 EnemyHitTimesText:
-	text "Hit @"
+	text "Ha colpejat @"
 	text_decimal wEnemyDamageTaken, 1, 1
-	text " times!"
+	text " cops!"
 	prompt
 
 MistText:
-	text "<USER>'s"
-	line "shrouded in MIST!"
+	text "<USER> està"
+	line "envoltat de BOIRA!"
 	prompt
 
 ProtectedByMistText:
-	text "<TARGET>'s"
-	line "protected by MIST."
+	text "<TARGET> està"
+	line "protegit per"
+	cont "BOIRA."
 	prompt
 
 GettingPumpedText:
 	text_pause
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "s'està bombejant!"
 	prompt
 
 RecoilText:
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "<USER> ha"
+	line "rebut dany de"
+	cont "rebot!"
 	prompt
 
 MadeSubstituteText:
 	text "<USER>"
-	line "made a SUBSTITUTE!"
+	line "ha creat"
+	cont "SUBSTITUT!"
 	prompt
 
 HasSubstituteText:
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "té un SUBSTITUT!"
 	prompt
 
 TooWeakSubText:
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Massa dèbil per"
+	line "fer"
+	cont "un SUBSTITUT!"
 	prompt
 
 SubTookDamageText:
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "El SUBSTITUT"
+	line "ha rebut dany per"
 	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
-	text "<TARGET>'s"
-	line "SUBSTITUTE faded!"
+	text "El SUBSTITUT de"
+	line "<TARGET> ha"
+	cont "caigut!"
 	prompt
 
 MimicLearnedMoveText:
 	text "<USER>"
-	line "learned"
+	line "ha après"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -829,280 +869,295 @@ MimicLearnedMoveText:
 
 WasSeededText:
 	text "<TARGET>"
-	line "was seeded!"
+	line "ha estat sembrat!"
 	prompt
 
 EvadedText:
 	text "<TARGET>"
-	line "evaded the attack!"
+	line "ha esquivat"
+	cont "l'atac!"
 	prompt
 
 WasDisabledText:
-	text "<TARGET>'s"
-	line "@"
+	text "El @"
 	text_ram wStringBuffer1
-	text " was"
-	cont "DISABLED!"
+	text " de"
+	line "<TARGET> està"
+	cont "ANUL·LAT!"
 	prompt
 
 CoinsScatteredText:
-	text "Coins scattered"
-	line "everywhere!"
+	text "Monedes escampades"
+	line "pertot arreu!"
 	prompt
 
 TransformedTypeText:
 	text "<USER>"
-	line "transformed into"
-	cont "the @"
+	line "s'ha transformat"
+	cont "en"
+	cont "tipus @"
 	text_ram wStringBuffer1
-	text "-type!"
+	text "!"
 	prompt
 
 EliminatedStatsText:
-	text "All stat changes"
-	line "were eliminated!"
+	text "Tots els canvis"
+	line "s'han eliminat!"
 	prompt
 
 TransformedText:
 	text "<USER>"
-	line "TRANSFORMED into"
+	line "s'ha TRANSFORMAT"
+	cont "en"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 LightScreenEffectText:
-	text "<USER>'s"
-	line "SPCL.DEF rose!"
+	text "La DEF.ESP. de"
+	line "<USER> ha"
+	cont "pujat!"
 	prompt
 
 ReflectEffectText:
-	text "<USER>'s"
-	line "DEFENSE rose!"
+	text "La DEFENSA de"
+	line "<USER> ha"
+	cont "pujat!"
 	prompt
 
 NothingHappenedText:
-	text "But nothing"
-	line "happened."
+	text "Però no ha passat"
+	line "res."
 	prompt
 
 ButItFailedText:
-	text "But it failed!"
+	text "Però ha fallat!"
 	prompt
 
 ItFailedText:
-	text "It failed!"
+	text "Ha fallat!"
 	prompt
 
 DidntAffect1Text:
-	text "It didn't affect"
+	text "No ha afectat"
 	line "<TARGET>!"
 	prompt
 
 DidntAffect2Text:
-	text "It didn't affect"
+	text "No ha afectat"
 	line "<TARGET>!"
 	prompt
 
 HPIsFullText:
-	text "<USER>'s"
-	line "HP is full!"
+	text "Els PS de"
+	line "<USER>"
+	cont "estan plens!"
 	prompt
 
 DraggedOutText:
 	text "<USER>"
-	line "was dragged out!"
+	line "ha estat"
+	cont "arrossegat!"
 	prompt
 
 ParalyzedText:
-	text "<TARGET>'s"
-	line "paralyzed! Maybe"
-	cont "it can't attack!"
+	text "<TARGET> està"
+	line "paralitzat! Potser"
+	cont "no pot atacar!"
 	prompt
 
 FullyParalyzedText:
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER> està"
+	line "totalment"
+	cont "paralitzat!"
 	prompt
 
 AlreadyParalyzedText:
-	text "<TARGET>'s"
-	line "already paralyzed!"
+	text "<TARGET>"
+	line "ja està"
+	cont "paralitzat!"
 	prompt
 
 ProtectedByText:
-	text "<TARGET>'s"
-	line "protected by"
+	text "<TARGET> està"
+	line "protegit per"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 MirrorMoveFailedText:
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "El MIRI MOVIM."
+	next "ha fallat!"
 	prompt
 
 StoleText:
 	text "<USER>"
-	line "stole @"
+	line "ha robat @"
 	text_ram wStringBuffer1
 	text_start
-	cont "from its foe!"
+	cont "del rival!"
 	prompt
 
 CantEscapeNowText:
 	text "<TARGET>"
-	line "can't escape now!"
+	line "no pot fugir ara!"
 	prompt
 
 StartedNightmareText:
 	text "<TARGET>"
-	line "started to have a"
-	cont "NIGHTMARE!"
+	line "ha començat a"
+	cont "tenir"
+	cont "un MALSON!"
 	prompt
 
 WasDefrostedText:
 	text "<USER>"
-	line "was defrosted!"
+	line "s'ha descongelat!"
 	prompt
 
 PutACurseText:
 	text "<USER>"
-	line "cut its own HP and"
+	line "ha reduït els PS i"
 
-	para "put a CURSE on"
-	line "<TARGET>!"
+	para "ha llançat"
+	line "MALEDICCIÓ"
+	cont "a <TARGET>!"
 	prompt
 
 ProtectedItselfText:
 	text "<USER>"
-	line "PROTECTED itself!"
+	line "s'ha PROTEGIT!"
 	prompt
 
 ProtectingItselfText:
-	text "<TARGET>'s"
-	line "PROTECTING itself!"
+	text "<TARGET>"
+	line "s'està PROTEGINT!"
 	done
 
 SpikesText:
-	text "SPIKES scattered"
-	line "all around"
+	text "PÚES escampades"
+	line "al voltant de"
 	cont "<TARGET>!"
 	prompt
 
 IdentifiedText:
 	text "<USER>"
-	line "identified"
+	line "ha identificat"
 	cont "<TARGET>!"
 	prompt
 
 StartPerishText:
-	text "Both #MON will"
-	line "faint in 3 turns!"
+	text "Tots dos #MON"
+	line "cauran en 3 torns!"
 	prompt
 
 SandstormBrewedText:
-	text "A SANDSTORM"
-	line "brewed!"
+	text "S'ha aixecat una"
+	line "TEMPESTA DE SORRA!"
 	prompt
 
 BracedItselfText:
 	text "<USER>"
-	line "braced itself!"
+	line "s'ha preparat!"
 	prompt
 
 FellInLoveText:
 	text "<TARGET>"
-	line "fell in love!"
+	line "s'ha enamorat!"
 	prompt
 
 CoveredByVeilText:
-	text "<USER>'s"
-	line "covered by a veil!"
+	text "<USER> està"
+	line "cobert per un vel!"
 	prompt
 
 SafeguardProtectText:
 	text "<TARGET>"
-	line "is protected by"
-	cont "SAFEGUARD!"
+	line "està protegit per"
+	cont "SALVAGUARDA!"
 	prompt
 
 MagnitudeText:
-	text "Magnitude @"
+	text "Magnitud @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 ReleasedByText:
 	text "<USER>"
-	line "was released by"
-	cont "<TARGET>!"
+	line "ha estat alliberat"
+	cont "per <TARGET>!"
 	prompt
 
 ShedLeechSeedText:
 	text "<USER>"
-	line "shed LEECH SEED!"
+	line "s'ha tret"
+	cont "DRENAVIDES!"
 	prompt
 
 BlewSpikesText:
 	text "<USER>"
-	line "blew away SPIKES!"
+	line "ha bufat les PÚES!"
 	prompt
 
 DownpourText:
-	text "A downpour"
-	line "started!"
+	text "Ha començat"
+	line "un xàfec!"
 	prompt
 
 SunGotBrightText:
-	text "The sunlight got"
-	line "bright!"
+	text "La llum del sol"
+	line "s'ha intensificat!"
 	prompt
 
 BellyDrumText:
 	text "<USER>"
-	line "cut its HP and"
-	cont "maximized ATTACK!"
+	line "ha reduït PS i"
+	cont "maximitzat l'ATAC!"
 	prompt
 
 CopiedStatsText:
 	text "<USER>"
-	line "copied the stat"
+	line "ha copiat els"
+	cont "canvis"
 
-	para "changes of"
+	para "d'estadístiques de"
 	line "<TARGET>!"
 	prompt
 
 ForesawAttackText:
 	text "<USER>"
-	line "foresaw an attack!"
+	line "ha previst un"
+	cont "atac!"
 	prompt
 
 BeatUpAttackText:
 	text_ram wStringBuffer1
-	text "'s"
-	line "attack!"
+	text ""
+	line "ataca!"
 	done
 
 PresentFailedText:
 	text "<TARGET>"
-	line "refused the gift!"
+	line "ha rebutjat el"
+	cont "regal!"
 	prompt
 
 IgnoredOrders2Text:
 	text "<USER>"
-	line "ignored orders!"
+	line "ha ignorat ordres!"
 	prompt
 
 BattleText_LinkErrorBattleCanceled:
-	text "Link error…"
+	text "Error d'enllaç…"
 
-	para "The battle has"
-	line "been canceled…"
+	para "El combat s'ha"
+	line "cancel·lat…"
 	prompt
 
 BattleText_NoTimeLeftToday: ; unreferenced
-	text "There is no time"
-	line "left today!"
+	text "No queda temps"
+	line "per avui!"
 	done

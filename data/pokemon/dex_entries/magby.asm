@@ -1,10 +1,12 @@
-	db "LIVE COAL@" ; species name
+	db "CARBÓ VIU@" ; species name
 	dw 204, 470 ; height, weight
 
-	db   "It naturally spits"
-	next "an 1100-degree"
-	next "flame. It is said"
+	db   "Escup flames de"
+	next "1.100 graus. Es"
+	next "diu"
+	next "que quan"
+	next "n'apareixen"
 
-	page "when many appear,"
-	next "it heralds a"
-	next "volcanic eruption.@"
+	page "molts, és senyal"
+	next "d'una erupció"
+	next "volcànica.@"

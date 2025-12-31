@@ -1,10 +1,13 @@
-	db "KICKING@" ; species name
+	db "PUNTADA@" ; species name
 	dw 411, 1100 ; height, weight
 
-	db   "It is also called"
-	next "the Kick Master."
-	next "It uses its"
+	db "També l'anomenen"
+	next "el"
+	next "Mestre de"
+	next "Puntades."
+	next "Fa servir les"
+	next "cames"
 
-	page "elastic legs to"
-	next "execute every"
-	next "known kick.@"
+	page "elàstiques per fer"
+	next "totes les puntades"
+	next "conegudes.@"

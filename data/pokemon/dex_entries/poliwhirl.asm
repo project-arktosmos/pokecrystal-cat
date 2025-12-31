@@ -1,10 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "CAPGRÒS@" ; species name
 	dw 303, 440 ; height, weight
 
-	db   "Though it is"
-	next "skilled at walk-"
-	next "ing, it prefers to"
+	db   "Tot i que és hàbil"
+	next "caminant,"
+	next "prefereix"
+	next "viure sota l'aigua"
 
-	page "live underwater"
-	next "where there is"
-	next "less danger.@"
+	page "on hi ha"
+	next "menys"
+	next "perill.@"

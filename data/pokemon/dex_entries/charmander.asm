@@ -1,10 +1,10 @@
-	db "LIZARD@" ; species name
+	db "LLANGARDAIX@" ; species name
 	dw 200, 190 ; height, weight
 
-	db   "If it's healthy,"
-	next "the flame on the"
-	next "tip of its tail"
+	db   "Si està sa, la"
+	next "flama de la punta"
+	next "de la cua cremarà"
 
-	page "will burn vigor-"
-	next "ously, even if it"
-	next "gets a bit wet.@"
+	page "vigorosament, fins"
+	next "i tot si es mulla"
+	next "una mica.@"

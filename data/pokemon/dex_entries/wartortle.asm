@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
+	db "TORTUGA@" ; species name
 	dw 303, 500 ; height, weight
 
-	db   "Its long, furry"
-	next "tail is a symbol"
-	next "of longevity,"
+	db   "La seva cua llarga"
+	next "i peluda és símbol"
+	next "de longevitat,"
 
-	page "making it quite"
-	next "popular among"
-	next "older people.@"
+	page "cosa que el fa"
+	next "molt popular entre"
+	next "la gent gran.@"

@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
+	db "TREPANT@" ; species name
 	dw 603, 2650 ; height, weight
 
-	db   "By lightly spin-"
-	next "ning its drill-"
-	next "like horn, it can"
+	db   "Girant suaument el"
+	next "seu banyó en forma"
+	next "de broca, pot"
 
-	page "easily shatter"
-	next "even a diamond in"
-	next "the rough.@"
+	page "trencar fàcilment"
+	next "fins i tot un"
+	next "diamant en brut.@"

@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
+	db "GAS VERINÓS@" ; species name
 	dw 311, 210 ; height, weight
 
-	db   "When it inhales"
-	next "poisonous gases"
-	next "from garbage, its"
+	db   "Quan inhala gasos"
+	next "verinosos de les"
+	next "escombraries, el"
 
-	page "body expands, and"
-	next "its insides smell"
-	next "much worse.@"
+	page "cos s'infla i el"
+	next "seu interior fa"
+	next "molta més pudor.@"

@@ -1,10 +1,11 @@
-	db "RAT@" ; species name
+	db "RATA@" ; species name
 	dw 204, 410 ; height, weight
 
-	db   "The webs on its"
-	next "hind legs enable"
-	next "it to cross"
+	db   "Les membranes de"
+	next "les potes del"
+	next "darrere li"
+	next "permeten"
 
-	page "rivers. It search-"
-	next "es wide areas for"
-	next "food.@"
+	page "creuar rius. Busca"
+	next "menjar per àrees"
+	next "molt àmplies.@"

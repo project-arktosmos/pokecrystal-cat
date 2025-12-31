@@ -1,10 +1,9 @@
-	db "SLUDGE@" ; species name
+	db "FANG@" ; species name
 	dw 211, 660 ; height, weight
 
-	db   "When two of these"
-	next "#MON's bodies"
-	next "are combined"
+	db   "Quan dos cossos"
+	next "d'aquests #MON"
+	next "es combinen,"
 
-	page "together, new"
-	next "poisons are"
-	next "created.@"
+	page "es creen verins"
+	next "nous.@"

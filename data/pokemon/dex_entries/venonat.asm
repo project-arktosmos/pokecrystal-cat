@@ -1,10 +1,12 @@
-	db "INSECT@" ; species name
+	db "INSECTE@" ; species name
 	dw 303, 660 ; height, weight
 
-	db   "The small bugs it"
-	next "eats appear only"
-	next "at night, so it"
+	db "Els petits"
+	next "insectes"
+	next "que menja surten"
+	next "de"
+	next "nit, així que dorm"
 
-	page "sleeps in a hole"
-	next "in a tree until"
-	next "night falls.@"
+	page "en un forat d'un"
+	next "arbre fins que"
+	next "es fa fosc.@"

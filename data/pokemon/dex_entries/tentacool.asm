@@ -1,10 +1,11 @@
-	db "JELLYFISH@" ; species name
+	db "MEDUSA@" ; species name
 	dw 211, 1000 ; height, weight
 
-	db   "As it floats along"
-	next "on the waves, it"
-	next "uses its toxic"
+	db   "Mentre flota per"
+	next "les ones, fa"
+	next "servir"
+	next "els tentacles"
 
-	page "feelers to stab"
-	next "anything it"
-	next "touches.@"
+	page "tòxics per punxar"
+	next "qualsevol cosa"
+	next "que toca.@"

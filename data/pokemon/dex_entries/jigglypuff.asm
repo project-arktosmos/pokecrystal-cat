@@ -1,10 +1,12 @@
-	db "BALLOON@" ; species name
+	db "GLOBUS@" ; species name
 	dw 108, 120 ; height, weight
 
-	db   "It rolls its cute"
-	next "eyes as it sings a"
-	next "soothing lullaby."
+	db   "Gira els seus ulls"
+	next "bonics mentre"
+	next "canta"
+	next "una cançó"
+	next "relaxant."
 
-	page "Its gentle song"
-	next "puts anyone who"
-	next "hears it to sleep.@"
+	page "La suau melodia fa"
+	next "dormir qualsevol"
+	next "que l'escolti.@"

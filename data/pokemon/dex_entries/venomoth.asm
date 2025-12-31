@@ -1,10 +1,10 @@
-	db "POISONMOTH@" ; species name
+	db "ARNA VERÍ@" ; species name
 	dw 411, 280 ; height, weight
 
-	db   "The scales it"
-	next "scatters will"
-	next "paralyze anyone"
+	db   "Les escates que"
+	next "escampa paralitzen"
+	next "qualsevol que les"
 
-	page "who touches them,"
-	next "making that person"
-	next "unable to stand.@"
+	page "toqui, impedint"
+	next "que es pugui"
+	next "aguantar dret.@"

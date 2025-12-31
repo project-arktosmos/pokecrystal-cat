@@ -1,10 +1,11 @@
-	db "ARMOR@" ; species name
+	db "ARMADURA@" ; species name
 	dw 607, 4450 ; height, weight
 
-	db   "In just one of its"
-	next "mighty hands, it"
-	next "has the power to"
+	db   "Amb només una de"
+	next "les seves mans po-"
+	next "deroses, té el"
+	next "poder"
 
-	page "make the ground"
-	next "shake and moun-"
-	next "tains crumble.@"
+	page "de fer tremolar la"
+	next "terra i esfondrar"
+	next "muntanyes.@"

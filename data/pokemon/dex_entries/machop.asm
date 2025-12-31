@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERPODER@" ; species name
 	dw 207, 430 ; height, weight
 
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
+	db   "S'entrena aixecant"
+	next "roques a la"
+	next "muntanya. Fins i"
 
-	page "can even pick up a"
-	next "GRAVELER with"
-	next "ease.@"
+	page "tot pot alçar"
+	next "un GRAVELER"
+	next "fàcilment.@"

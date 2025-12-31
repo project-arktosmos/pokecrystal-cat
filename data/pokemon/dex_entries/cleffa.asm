@@ -1,10 +1,11 @@
-	db "STARSHAPE@" ; species name
+	db "ESTRELLA@" ; species name
 	dw 100, 70 ; height, weight
 
-	db   "If the impact site"
-	next "of a meteorite is"
-	next "found, this"
+	db "Si es troba el"
+	next "punt"
+	next "d'impacte d'un me-"
+	next "teorit, segur que"
 
-	page "#MON is certain"
-	next "to be within the"
-	next "immediate area.@"
+	page "aquest Pokémon és"
+	next "a prop de la"
+	next "zona.@"

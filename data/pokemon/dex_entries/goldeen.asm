@@ -1,10 +1,10 @@
-	db "GOLDFISH@" ; species name
+	db "PEIX DAURAT@" ; species name
 	dw 200, 330 ; height, weight
 
-	db   "During spawning"
-	next "season, they swim"
-	next "gracefully in the"
+	db   "Durant l'època de"
+	next "freses, neden"
+	next "graciosament per"
 
-	page "water, searching"
-	next "for their perfect"
-	next "mate.@"
+	page "l'aigua, buscant"
+	next "la seva parella"
+	next "perfecta.@"

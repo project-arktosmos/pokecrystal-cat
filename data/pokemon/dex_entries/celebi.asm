@@ -1,10 +1,9 @@
-	db "TIMETRAVEL@" ; species name
+	db "VIATJA TEMPS@" ; species name
 	dw 200, 110 ; height, weight
 
-	db   "Revered as a"
-	next "guardian of the"
-	next "forest, CELEBI"
+	db   "Venerat com a"
+	next "guardià del bosc,"
+	next "Celebi apareix on"
 
-	page "appears wherever"
-	next "beautiful forests"
-	next "exist.@"
+	page "existeixin boscos"
+	next "bells.@"

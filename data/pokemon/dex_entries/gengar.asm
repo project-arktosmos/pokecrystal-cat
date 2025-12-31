@@ -1,10 +1,10 @@
-	db "SHADOW@" ; species name
+	db "OMBRA@" ; species name
 	dw 411, 890 ; height, weight
 
-	db   "Hiding in people's"
-	next "shadows at night,"
-	next "it absorbs their"
+	db   "S'amaga a l'ombra"
+	next "de la gent de nit"
+	next "i els absorbeix la"
 
-	page "heat. The chill it"
-	next "causes makes the"
-	next "victims shake.@"
+	page "calor. El fred que"
+	next "els causa els fa"
+	next "tremolar.@"

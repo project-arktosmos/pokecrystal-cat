@@ -1,10 +1,10 @@
-	db "LITTLE BIRD@" ; species name
+	db "OCELLET@" ; species name
 	dw 8, 40 ; height, weight
 
-	db   "It is extremely"
-	next "good at climbing"
-	next "tree trunks and"
+	db   "És molt bo pujant"
+	next "troncs d'arbres i"
+	next "li agrada menjar"
 
-	page "likes to eat the"
-	next "new sprouts on"
-	next "the trees.@"
+	page "els brots nous"
+	next "dels"
+	next "arbres.@"

@@ -1,10 +1,10 @@
 	db "BIVALVE@" ; species name
 	dw 411, 2920 ; height, weight
 
-	db   "Even a missile"
-	next "can't break the"
-	next "spikes it uses to"
+	db   "Ni un míssil pot"
+	next "trencar les punxes"
+	next "que usa per clavar"
 
-	page "stab opponents."
-	next "They're even hard-"
-	next "er than its shell.@"
+	page "als oponents. Són"
+	next "més dures que la"
+	next "closca.@"

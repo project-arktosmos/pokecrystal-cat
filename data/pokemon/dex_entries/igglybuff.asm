@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
+	db "GLOBUS@" ; species name
 	dw 100, 20 ; height, weight
 
-	db   "Instead of walking"
-	next "with its short"
-	next "legs, it moves"
+	db   "En lloc de caminar"
+	next "amb les cames cur-"
+	next "tes, es mou botant"
 
-	page "around by bouncing"
-	next "on its soft,"
-	next "tender body.@"
+	page "sobre el seu cos"
+	next "tou i"
+	next "delicat.@"

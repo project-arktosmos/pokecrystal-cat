@@ -1,10 +1,11 @@
-	db "ARMOR BIRD@" ; species name
+	db "OCELL ARMOR@" ; species name
 	dw 507, 1110 ; height, weight
 
-	db   "The feathers that"
-	next "it sheds are very"
-	next "sharp. It is said"
+	db "Les plomes que"
+	next "muda"
+	next "són molt afilades."
+	next "Es diu que la gent"
 
-	page "that people once"
-	next "used the feathers"
-	next "as swords.@"
+	page "les feia servir"
+	next "com a"
+	next "espases.@"

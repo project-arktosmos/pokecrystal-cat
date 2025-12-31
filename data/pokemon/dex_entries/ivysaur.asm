@@ -1,10 +1,12 @@
-	db "SEED@" ; species name
+	db "LLAVOR@" ; species name
 	dw 303, 290 ; height, weight
 
-	db   "The bulb on its"
-	next "back grows as it"
-	next "absorbs nutrients."
+	db   "El bulb de la seva"
+	next "esquena creix quan"
+	next "absorbeix"
+	next "nutrients."
 
-	page "The bulb gives off"
-	next "a pleasant aroma"
-	next "when it blooms.@"
+	page "El bulb desprèn"
+	next "una aroma"
+	next "agradable"
+	next "quan floreix.@"

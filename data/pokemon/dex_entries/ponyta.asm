@@ -1,10 +1,11 @@
-	db "FIRE HORSE@" ; species name
+	db "CAVALL FOC@" ; species name
 	dw 303, 660 ; height, weight
 
-	db   "Training by"
-	next "jumping over grass"
-	next "that grows longer"
+	db "Entrenant-se"
+	next "saltant"
+	next "per sobre d'herba"
+	next "cada cop més alta,"
 
-	page "every day has made"
-	next "it a world-class"
-	next "jumper.@"
+	page "s'ha convertit en"
+	next "un saltador de"
+	next "nivell mundial.@"

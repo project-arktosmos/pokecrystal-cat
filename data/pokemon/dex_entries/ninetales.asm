@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
+	db "GUINEU@" ; species name
 	dw 307, 440 ; height, weight
 
-	db   "It is said to live"
-	next "a thousand years,"
-	next "and each of its"
+	db   "Es diu que viu mil"
+	next "anys, i cadascuna"
+	next "de les seves cues"
 
-	page "tails is loaded"
-	next "with supernatural"
-	next "powers.@"
+	page "està carregada"
+	next "de poders"
+	next "sobrenaturals.@"

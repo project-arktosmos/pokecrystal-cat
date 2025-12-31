@@ -1,10 +1,9 @@
-	db "SEA LION@" ; species name
+	db "LLEÓ MARÍ@" ; species name
 	dw 507, 2650 ; height, weight
 
-	db   "It sleeps under"
-	next "shallow ocean"
-	next "waters during the"
+	db   "De dia dorm en"
+	next "aigües poc fondes,"
+	next "després busca"
 
-	page "day, then looks"
-	next "for food at night"
-	next "when it's cold.@"
+	page "menjar de nit quan"
+	next "fa fred.@"

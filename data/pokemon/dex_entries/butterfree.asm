@@ -1,10 +1,11 @@
-	db "BUTTERFLY@" ; species name
+	db "PAPALLONA@" ; species name
 	dw 307, 710 ; height, weight
 
-	db   "It flits from"
-	next "flower to flower,"
-	next "collecting honey."
+	db   "Vola de flor en"
+	next "flor, recollint"
+	next "mel. Fins i tot"
+	next "pot"
 
-	page "It can even"
-	next "identify distant"
-	next "flowers in bloom.@"
+	page "identificar flors"
+	next "florint a gran"
+	next "distància.@"

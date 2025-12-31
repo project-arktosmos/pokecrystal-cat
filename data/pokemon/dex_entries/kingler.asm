@@ -1,10 +1,10 @@
-	db "PINCER@" ; species name
+	db "PINÇA@" ; species name
 	dw 403, 1320 ; height, weight
 
-	db   "Its oversized claw"
-	next "is very powerful,"
-	next "but when it's not"
+	db   "La seva pinça"
+	next "gegant és molt"
+	next "potent, però quan"
 
-	page "in battle, the"
-	next "claw just gets in"
-	next "the way.@"
+	page "no combat, la"
+	next "pinça només li"
+	next "fa nosa.@"

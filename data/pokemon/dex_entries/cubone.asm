@@ -1,10 +1,11 @@
-	db "LONELY@" ; species name
+	db "SOLITARI@" ; species name
 	dw 104, 140 ; height, weight
 
-	db   "It lost its mother"
-	next "after its birth."
-	next "It wears its"
+	db   "Va perdre la mare"
+	next "després de néixer."
+	next "Porta el crani de"
 
-	page "mother's skull,"
-	next "never revealing"
-	next "its true face.@"
+	page "la seva mare, sense"
+	next "revelar mai la"
+	next "seva veritable"
+	next "cara.@"

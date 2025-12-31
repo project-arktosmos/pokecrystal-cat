@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
+	db "RAT PENAT@" ; species name
 	dw 503, 1210 ; height, weight
 
-	db   "When it plunges"
-	next "its fangs into its"
-	next "prey, it instantly"
+	db   "Quan clava els"
+	next "ullals a la presa,"
+	next "instantàniament"
 
-	page "draws and gulps"
-	next "down more than ten"
-	next "ounces of blood.@"
+	page "xucla i engoleix"
+	next "més de 300 grams"
+	next "de sang.@"

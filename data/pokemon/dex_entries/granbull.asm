@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
+	db "FADA@" ; species name
 	dw 407, 1070 ; height, weight
 
-	db   "It can make most"
-	next "any #MON run"
-	next "away simply by"
+	db   "Pot fer fugir gai-"
+	next "rebé qualsevol"
+	next "Pokémon simplement"
 
-	page "opening its mouth"
-	next "wide to reveal its"
-	next "big fangs.@"
+	page "obrint molt la boca"
+	next "per mostrar els"
+	next "grans ullals.@"

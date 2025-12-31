@@ -1,10 +1,10 @@
-	db "CLASSY CAT@" ; species name
+	db "GAT ELEGANT@" ; species name
 	dw 303, 710 ; height, weight
 
-	db   "Behind its lithe,"
-	next "elegant appearance"
-	next "lies a barbaric"
+	db   "Darrere l'aparença"
+	next "esvelta i elegant"
+	next "s'amaga un costat"
 
-	page "side. It will tear"
-	next "apart its prey on"
-	next "a mere whim.@"
+	page "salvatge. Estrip-"
+	next "arà la presa per"
+	next "pur caprici.@"

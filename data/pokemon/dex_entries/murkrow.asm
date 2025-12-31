@@ -1,10 +1,10 @@
-	db "DARKNESS@" ; species name
+	db "FOSCOR@" ; species name
 	dw 108, 50 ; height, weight
 
-	db   "It hides any shiny"
-	next "object it finds in"
-	next "a secret location."
+	db   "Amaga qualsevol"
+	next "objecte brillant"
+	next "que troba en un"
 
-	page "MURKROW and"
-	next "MEOWTH loot one"
-	next "another's stashes.@"
+	page "lloc secret. Murkrow"
+	next "i Meowth es roben"
+	next "entre ells.@"

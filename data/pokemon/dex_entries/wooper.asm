@@ -1,10 +1,12 @@
-	db "WATER FISH@" ; species name
+	db "PEIX AIGUA@" ; species name
 	dw 104, 190 ; height, weight
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
+	db "Una membrana"
+	next "mucosa"
+	next "cobreix el seu"
+	next "cos."
+	next "Tocar-lo a mans"
 
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	page "nues provoca un"
+	next "dolor"
+	next "agut.@"

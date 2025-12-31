@@ -1,10 +1,11 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERPODER@" ; species name
 	dw 503, 2870 ; height, weight
 
-	db   "With four arms"
-	next "that react more"
-	next "quickly than it"
+	db   "Amb quatre braços"
+	next "que reaccionen més"
+	next "ràpid que no"
+	next "pensa,"
 
-	page "can think, it can"
-	next "execute many"
-	next "punches at once.@"
+	page "pot executar molts"
+	next "cops de puny"
+	next "alhora.@"

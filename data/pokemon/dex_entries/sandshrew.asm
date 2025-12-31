@@ -1,10 +1,11 @@
-	db "MOUSE@" ; species name
+	db "RATOLÍ@" ; species name
 	dw 200, 260 ; height, weight
 
-	db   "It prefers dry,"
-	next "sandy places"
-	next "because it uses"
+	db   "Prefereix llocs"
+	next "secs i sorrencs"
+	next "perquè fa servir"
+	next "la"
 
-	page "the sand to"
-	next "protect itself"
-	next "when threatened.@"
+	page "sorra per"
+	next "protegir-se quan"
+	next "se sent amenaçat.@"

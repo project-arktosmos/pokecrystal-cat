@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
+	db "ROCA@" ; species name
 	dw 104, 440 ; height, weight
 
-	db   "Proud of their"
-	next "sturdy bodies,"
-	next "they bash against"
+	db   "Orgullosos dels"
+	next "seus cossos durs,"
+	next "es colpegen entre"
 
-	page "each other in a"
-	next "contest to prove"
-	next "whose is harder.@"
+	page "ells per demostrar"
+	next "quin és el"
+	next "més resistent.@"

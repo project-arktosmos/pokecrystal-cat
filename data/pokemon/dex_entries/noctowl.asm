@@ -1,10 +1,11 @@
-	db "OWL@" ; species name
+	db "MUSSOL@" ; species name
 	dw 503, 900 ; height, weight
 
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
+	db   "Les plomes tan"
+	next "suaus no fan"
+	next "soroll"
+	next "en vol. S'acosta"
 
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"
+	page "silenciosament a"
+	next "la presa sense ser"
+	next "detectat.@"

@@ -1,10 +1,11 @@
-	db "PIG@" ; species name
+	db "PORC@" ; species name
 	dw 104, 140 ; height, weight
 
-	db   "It uses the tip of"
-	next "its nose to dig"
-	next "for food. Its nose"
+	db   "Utilitza la punta"
+	next "del nas per"
+	next "excavar"
+	next "menjar. El nas és"
 
-	page "is so tough that"
-	next "even frozen ground"
-	next "poses no problem.@"
+	page "tan dur que el"
+	next "terra gelat no és"
+	next "cap problema.@"

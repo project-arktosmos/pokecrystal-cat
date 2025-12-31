@@ -1,10 +1,10 @@
 	db "AURORA@" ; species name
 	dw 607, 4120 ; height, weight
 
-	db   "This divine"
-	next "#MON blows"
-	next "around the world,"
+	db   "Aquest Pokémon"
+	next "diví bufa pel món,"
+	next "sempre a la cerca"
 
-	page "always in search"
-	next "of a pure"
-	next "reservoir.@"
+	page "d'un embassament"
+	next "d'aigua"
+	next "pura.@"

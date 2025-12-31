@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
+	db "FLOR@" ; species name
 	dw 204, 90 ; height, weight
 
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
+	db   "Si nota qualsevol"
+	next "cosa que es mou,"
+	next "immediatament"
 
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
+	page "llança la seva"
+	next "tija cap a"
+	next "l'objecte.@"

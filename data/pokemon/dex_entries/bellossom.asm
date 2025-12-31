@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
+	db "FLOR@" ; species name
 	dw 104, 130 ; height, weight
 
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
+	db   "Quan ballen junts,"
+	next "els pètals es fre-"
+	next "guen entre ells,"
 
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
+	page "fent sons bonics"
+	next "i"
+	next "relaxants.@"

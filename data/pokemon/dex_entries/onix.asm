@@ -1,10 +1,10 @@
-	db "ROCK SNAKE@" ; species name
+	db "SERP ROCA@" ; species name
 	dw 2810, 4630 ; height, weight
 
-	db   "As it digs through"
-	next "the ground, it"
-	next "absorbs many hard"
+	db   "Mentre excava el"
+	next "terra, absorbeix"
+	next "molts objectes"
 
-	page "objects. This is"
-	next "what makes its"
-	next "body so solid.@"
+	page "durs. Això és el"
+	next "que fa el seu cos"
+	next "tan sòlid.@"

@@ -166,6 +166,18 @@
 	charmap "ö",         $c4
 	charmap "ü",         $c5
 
+; Catalan characters
+	charmap "À",         $c6
+	charmap "à",         $c7
+	charmap "È",         $c8
+	charmap "è",         $c9
+	charmap "Ò",         $ca
+	charmap "ò",         $cb
+	charmap "Í",         $cc
+	charmap "í",         $cd
+	charmap "Ú",         $ce
+	charmap "ú",         $cf
+
 	charmap "'d",        $d0
 	charmap "'l",        $d1
 	charmap "'m",        $d2
@@ -174,11 +186,22 @@
 	charmap "'t",        $d5
 	charmap "'v",        $d6
 
+; More Catalan characters
+	charmap "Ç",         $d7
+	charmap "ç",         $d8
+	charmap "Ï",         $d9
+	charmap "ï",         $da
+	charmap "<L·L>",     $db ; ela geminada (lowercase)
+	charmap "<L.L>",     $dc ; ela geminada (uppercase)
+	charmap "Ó",         $dd
+	charmap "ó",         $de
+
 	charmap "←",         $df
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
+	charmap "É",         $e4
 
 	charmap "?",         $e6
 	charmap "!",         $e7

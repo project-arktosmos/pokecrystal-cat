@@ -1,10 +1,9 @@
-	db "LEAF@" ; species name
+	db "FULLA@" ; species name
 	dw 211, 140 ; height, weight
 
-	db   "It loves to bask"
-	next "in the sunlight."
-	next "It uses the leaf"
+	db   "Li encanta prendre"
+	next "el sol. Fa servir"
+	next "la fulla del cap"
 
-	page "on its head to"
-	next "seek out warm"
-	next "places.@"
+	page "per buscar llocs"
+	next "càlids.@"

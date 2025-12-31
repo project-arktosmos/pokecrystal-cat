@@ -1,10 +1,11 @@
 	db "GAS@" ; species name
 	dw 403, 2 ; height, weight
 
-	db   "It wraps its op-"
-	next "ponent in its gas-"
-	next "like body, slowly"
+	db "Embolcalla"
+	next "l'oponent"
+	next "amb el seu cos"
+	next "gasós, debilitant"
 
-	page "weakening its prey"
-	next "by poisoning it"
-	next "through the skin.@"
+	page "lentament la presa"
+	next "enverinant-la a"
+	next "través de la pell.@"

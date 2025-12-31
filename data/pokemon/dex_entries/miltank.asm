@@ -1,10 +1,10 @@
-	db "MILK COW@" ; species name
+	db "VACA LLETERA@" ; species name
 	dw 311, 1660 ; height, weight
 
-	db   "In order to milk a"
-	next "MILTANK, one must"
-	next "have a knack for"
+	db   "Per munyir un"
+	next "Miltank, s'ha de"
+	next "tenir traça per"
 
-	page "rhythmically pull-"
-	next "ing up and down"
-	next "on its udders.@"
+	page "estirar rítmica-"
+	next "ment les seves"
+	next "mamelles.@"

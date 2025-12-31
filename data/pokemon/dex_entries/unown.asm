@@ -1,10 +1,11 @@
-	db "SYMBOL@" ; species name
+	db "SÍMBOL@" ; species name
 	dw 108, 110 ; height, weight
 
-	db   "Because different"
-	next "types of UNOWN"
-	next "exist, it is said"
+	db   "Com que hi ha"
+	next "diferents tipus"
+	next "d'Unown, es diu"
+	next "que"
 
-	page "that they must"
-	next "have a variety of"
-	next "abilities.@"
+	page "han de tenir una"
+	next "varietat"
+	next "d'habilitats.@"

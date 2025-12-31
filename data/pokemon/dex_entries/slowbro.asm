@@ -1,10 +1,11 @@
-	db "HERMITCRAB@" ; species name
+	db "ERMITÀ@" ; species name
 	dw 503, 1730 ; height, weight
 
-	db   "An attached"
-	next "SHELLDER won't let"
-	next "go because of the"
+	db "El SHELLDER"
+	next "enganxat"
+	next "no el deixarà anar"
+	next "pel deliciós sabor"
 
-	page "tasty flavor that"
-	next "oozes out of its"
-	next "tail.@"
+	page "que brolla de"
+	next "la seva"
+	next "cua.@"

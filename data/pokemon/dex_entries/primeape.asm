@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
+	db "MICO PORC@" ; species name
 	dw 303, 710 ; height, weight
 
-	db   "It will beat up"
-	next "anyone who makes"
-	next "it mad, even if it"
+	db   "Apallissarà"
+	next "qualsevol que"
+	next "l'enfadi, encara"
 
-	page "has to chase them"
-	next "until the end of"
-	next "the world.@"
+	page "que l'hagi de"
+	next "perseguir fins al"
+	next "final del món.@"

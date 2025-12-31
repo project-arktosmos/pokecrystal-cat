@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
+	db "ELÈCTRIC@" ; species name
 	dw 200, 520 ; height, weight
 
-	db   "It loves violent"
-	next "thunder. The space"
-	next "between its horns"
+	db   "Li encanta el tro"
+	next "violent. L'espai"
+	next "entre les banyes"
 
-	page "flickers bluish-"
-	next "white when it is"
-	next "charging energy.@"
+	page "fa pampallugues"
+	next "blavoses quan"
+	next "carrega energia.@"

@@ -1,10 +1,10 @@
-	db "GOLDFISH@" ; species name
+	db "PEIX DAURAT@" ; species name
 	dw 403, 860 ; height, weight
 
-	db   "When autumn comes,"
-	next "the males patrol"
-	next "the area around"
+	db   "A la tardor, els"
+	next "mascles patrullen"
+	next "l'àrea al voltant"
 
-	page "their nests in"
-	next "order to protect"
-	next "their offspring.@"
+	page "dels seus nius per"
+	next "protegir les"
+	next "cries.@"

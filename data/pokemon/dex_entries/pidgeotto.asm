@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
+	db "OCELL@" ; species name
 	dw 307, 660 ; height, weight
 
-	db   "It slowly flies in"
-	next "a circular pat-"
-	next "tern, all the"
+	db   "Vola lentament en"
+	next "cercles, mentre"
+	next "vigila atentament"
 
-	page "while keeping a"
-	next "sharp lookout for"
-	next "prey.@"
+	page "buscant les"
+	next "seves"
+	next "preses.@"

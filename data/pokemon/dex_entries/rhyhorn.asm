@@ -1,10 +1,11 @@
-	db "SPIKES@" ; species name
+	db "PUNXES@" ; species name
 	dw 303, 2540 ; height, weight
 
-	db   "It can remember"
-	next "only one thing at"
-	next "a time. Once it"
+	db   "Només pot recordar"
+	next "una cosa a la"
+	next "vegada. Quan"
+	next "comença"
 
-	page "starts rushing, it"
-	next "forgets why it"
-	next "started.@"
+	page "a córrer, oblida"
+	next "per què va"
+	next "començar.@"

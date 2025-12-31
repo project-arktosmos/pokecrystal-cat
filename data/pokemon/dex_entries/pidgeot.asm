@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
+	db "OCELL@" ; species name
 	dw 411, 870 ; height, weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "La seva visió"
+	next "excepcional li"
+	next "permet veure un"
 
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "MAGIKARP saltant,"
+	next "fins i tot volant"
+	next "a 1000 metres.@"

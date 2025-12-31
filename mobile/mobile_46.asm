@@ -4621,7 +4621,7 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ret
 
 String_11a2cf:
-	db "YES@"
+	db "SÍ@"
 
 String_11a2d3:
 	db "NO@"

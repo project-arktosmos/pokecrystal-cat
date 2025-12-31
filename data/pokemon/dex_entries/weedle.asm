@@ -1,10 +1,11 @@
-	db "HAIRY BUG@" ; species name
+	db "CUC PELUT@" ; species name
 	dw 100, 70 ; height, weight
 
-	db   "The barb on top of"
-	next "its head secretes"
-	next "a strong poison."
+	db   "El fibló del cap"
+	next "secreta un verí"
+	next "molt fort."
+	next "Utilitza"
 
-	page "It uses this toxic"
-	next "barb to protect"
-	next "itself.@"
+	page "aquest fibló tòxic"
+	next "per protegir-se"
+	next "a si mateix.@"

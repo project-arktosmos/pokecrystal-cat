@@ -1,10 +1,11 @@
-	db "COCOON@" ; species name
+	db "CAPOLL@" ; species name
 	dw 204, 220 ; height, weight
 
-	db   "This is its pre-"
-	next "evolved form. At"
-	next "this stage, it can"
+	db   "Aquesta és la seva"
+	next "forma preevol. En"
+	next "aquest estat,"
+	next "només"
 
-	page "only harden, so it"
-	next "remains motionless"
-	next "to avoid attack.@"
+	page "pot endurir-se, així"
+	next "que no es mou per"
+	next "evitar atacs.@"

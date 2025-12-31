@@ -1,10 +1,11 @@
 	db "VIRTUAL@" ; species name
 	dw 200, 720 ; height, weight
 
-	db   "This manmade"
-	next "#MON evolved"
-	next "from the latest"
+	db   "Aquest Pokémon"
+	next "artificial va evo-"
+	next "lucionar gràcies"
 
-	page "technology. It"
-	next "may have unprog-"
-	next "rammed reactions.@"
+	page "a l'última tecnolo-"
+	next "gia. Pot tenir"
+	next "reaccions"
+	next "imprevistes.@"

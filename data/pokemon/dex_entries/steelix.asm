@@ -1,10 +1,10 @@
-	db "IRON SNAKE@" ; species name
+	db "SERP FERRO@" ; species name
 	dw 3002, 8820 ; height, weight
 
-	db   "The many small"
-	next "metal particles"
-	next "that cover this"
+	db   "Les moltes partí-"
+	next "cules metàl·liques"
+	next "que cobreixen el"
 
-	page "#MON's body"
-	next "reflect bright"
-	next "light well.@"
+	page "cos d'aquest Poké-"
+	next "mon reflecteixen"
+	next "bé la llum.@"

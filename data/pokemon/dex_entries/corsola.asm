@@ -1,10 +1,10 @@
-	db "CORAL@" ; species name
+	db "CORALL@" ; species name
 	dw 200, 110 ; height, weight
 
-	db   "The points on its"
-	next "head absorb"
-	next "nutrients from"
+	db   "Les puntes del cap"
+	next "absorbeixen nutri-"
+	next "ents de l'aigua"
 
-	page "clean water. They"
-	next "cannot survive in"
-	next "polluted water.@"
+	page "neta. No sobreviuen"
+	next "en aigua"
+	next "contaminada.@"

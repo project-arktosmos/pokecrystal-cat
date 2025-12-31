@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
+	db "MARISC@" ; species name
 	dw 503, 1890 ; height, weight
 
-	db   "It firmly plants"
-	next "its feet on the"
-	next "ground before"
+	db   "Planta fermament"
+	next "els peus a terra"
+	next "abans de disparar"
 
-	page "shooting water"
-	next "from the jets on"
-	next "its back.@"
+	page "aigua dels canons"
+	next "que té a"
+	next "l'esquena.@"

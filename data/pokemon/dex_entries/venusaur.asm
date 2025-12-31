@@ -1,10 +1,13 @@
-	db "SEED@" ; species name
+	db "LLAVOR@" ; species name
 	dw 607, 2210 ; height, weight
 
-	db   "As it warms it-"
-	next "self and absorbs"
-	next "the sunlight, its"
+	db   "Mentre s'escalfa"
+	next "i absorbeix la"
+	next "llum"
+	next "del sol, els"
+	next "pètals"
 
-	page "flower petals"
-	next "release a pleasant"
-	next "fragrance.@"
+	page "de la seva flor"
+	next "alliberen una"
+	next "fragància"
+	next "agradable.@"

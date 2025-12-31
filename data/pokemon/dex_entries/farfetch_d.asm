@@ -1,10 +1,9 @@
-	db "WILD DUCK@" ; species name
+	db "ÀNEC SALVAT@" ; species name
 	dw 207, 330 ; height, weight
 
-	db   "In order to pre-"
-	next "vent their"
-	next "extinction, more"
+	db   "Per evitar la seva"
+	next "extinció, més gent"
+	next "s'ha esforçat per"
 
-	page "people have made"
-	next "an effort to breed"
-	next "these #MON.@"
+	page "criar aquests"
+	next "#MON.@"

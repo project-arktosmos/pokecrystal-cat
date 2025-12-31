@@ -1,10 +1,11 @@
-	db "FLOWER@" ; species name
+	db "FLOR@" ; species name
 	dw 311, 410 ; height, weight
 
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
+	db "Sacsejant els"
+	next "grans"
+	next "pètals, escampa"
+	next "pollen tòxic per"
 
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
+	page "l'aire, tornant-lo"
+	next "de color"
+	next "groc.@"

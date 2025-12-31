@@ -1,10 +1,12 @@
-	db "EGG@" ; species name
+	db "OU@" ; species name
 	dw 104, 60 ; height, weight
 
-	db   "If even one is"
-	next "separated from the"
-	next "group, the energy"
+	db   "Si un se separa"
+	next "del grup, el"
+	next "vincle"
+	next "energètic entre"
+	next "els"
 
-	page "bond between the"
-	next "six will make them"
-	next "rejoin instantly.@"
+	page "sis farà que es"
+	next "tornin a ajuntar"
+	next "a l'instant.@"

@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "DRAC@" ; species name
 	dw 511, 70 ; height, weight
 
-	db   "It sheds many lay-"
-	next "ers of skin as it"
-	next "grows larger. Dur-"
+	db   "Muda moltes capes"
+	next "de pell mentre"
+	next "creix. Durant"
 
-	page "ing this process,"
-	next "it is protected by"
-	next "a rapid waterfall.@"
+	page "aquest procés, el"
+	next "protegeix una"
+	next "cascada ràpida.@"

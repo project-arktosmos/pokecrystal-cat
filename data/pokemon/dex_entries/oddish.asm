@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
+	db "HERBA@" ; species name
 	dw 108, 120 ; height, weight
 
-	db   "During the day, it"
-	next "stays in the cold"
-	next "underground to"
+	db   "De dia, es queda"
+	next "sota terra al fred"
+	next "per evitar el sol."
 
-	page "avoid the sun."
-	next "It grows by bath-"
-	next "ing in moonlight.@"
+	page "Creix banyant-se"
+	next "a la llum de"
+	next "la lluna.@"

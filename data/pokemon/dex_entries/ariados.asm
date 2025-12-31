@@ -1,10 +1,11 @@
-	db "LONG LEG@" ; species name
+	db "CAMA LLARGA@" ; species name
 	dw 307, 740 ; height, weight
 
-	db   "Rather than mak-"
-	next "ing a nest in one"
-	next "specific spot, it"
+	db   "En lloc de fer un"
+	next "niu en un lloc"
+	next "fix,"
+	next "vaga en cerca de"
 
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	page "menjar després que"
+	next "es fa"
+	next "fosc.@"

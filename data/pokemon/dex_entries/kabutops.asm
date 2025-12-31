@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
+	db "MARISC@" ; species name
 	dw 403, 890 ; height, weight
 
-	db   "It was able to"
-	next "swim quickly thro-"
-	next "ugh the water by"
+	db   "Podia nedar"
+	next "ràpidament per"
+	next "l'aigua plegant"
 
-	page "compactly folding"
-	next "up its razor-sharp"
-	next "sickles.@"
+	page "compactament les"
+	next "seves falçs"
+	next "esmolades.@"

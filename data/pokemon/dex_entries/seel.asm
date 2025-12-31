@@ -1,10 +1,12 @@
-	db "SEA LION@" ; species name
+	db "LLEÓ MARÍ@" ; species name
 	dw 307, 1980 ; height, weight
 
-	db   "The light blue fur"
-	next "that covers it"
-	next "keeps it protected"
+	db "El pelatge blau"
+	next "clar"
+	next "que el cobreix el"
+	next "protegeix del"
+	next "fred."
 
-	page "against the cold."
-	next "It loves iceberg-"
-	next "filled oceans.@"
+	page "Li encanten els"
+	next "oceans plens"
+	next "d'icebergs.@"

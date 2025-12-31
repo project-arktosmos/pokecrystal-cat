@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
+	db "BOLET@" ; species name
 	dw 100, 120 ; height, weight
 
-	db   "The tochukaso"
-	next "growing on this"
-	next "#MON's back"
+	db   "El tochukaso que"
+	next "creix a l'esquena"
+	next "d'aquest #MON"
 
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	page "li ordena extreure"
+	next "suc dels troncs"
+	next "dels arbres.@"

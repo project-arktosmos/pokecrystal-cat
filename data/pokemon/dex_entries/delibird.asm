@@ -1,10 +1,11 @@
-	db "DELIVERY@" ; species name
+	db "LLIURAMENT@" ; species name
 	dw 211, 350 ; height, weight
 
-	db   "It always carries"
-	next "its food with it,"
-	next "wherever it goes."
+	db "Sempre porta"
+	next "menjar"
+	next "amb ell on vagi."
+	next "Si l'ataquen,"
 
-	page "If attacked, it"
-	next "throws its food at"
-	next "the opponent.@"
+	page "llança el menjar"
+	next "contra"
+	next "l'oponent.@"
