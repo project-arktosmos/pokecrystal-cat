@@ -1,5 +1,5 @@
 roms := \
-	pokecrystal.gbc \
+	pokemon-cristall.gbc \
 	pokecrystal11.gbc \
 	pokecrystal_au.gbc \
 	pokecrystal_debug.gbc \
@@ -25,7 +25,7 @@ rom_obj := \
 	lib/mobile/main.o \
 	lib/mobile/mail.o
 
-pokecrystal_obj         := $(rom_obj:.o=.o)
+pokemon-cristall_obj    := $(rom_obj:.o=.o)
 pokecrystal11_obj       := $(rom_obj:.o=11.o)
 pokecrystal_au_obj      := $(rom_obj:.o=_au.o)
 pokecrystal_debug_obj   := $(rom_obj:.o=_debug.o)
@@ -73,7 +73,7 @@ RGBGFXFLAGS  ?= -Weverything
 	tools
 
 all: crystal
-crystal:         pokecrystal.gbc
+crystal:         pokemon-cristall.gbc
 crystal11:       pokecrystal11.gbc
 crystal_au:      pokecrystal_au.gbc
 crystal_debug:   pokecrystal_debug.gbc
@@ -104,7 +104,7 @@ tidy:
 	      $(patches:.patch=_vc.sym) \
 	      $(patches:.patch=_vc.map) \
 	      $(patches:%.patch=vc/%.constants.sym) \
-	      $(pokecrystal_obj) \
+	      $(pokemon-cristall_obj) \
 	      $(pokecrystal11_obj) \
 	      $(pokecrystal11_vc_obj) \
 	      $(pokecrystal_au_obj) \
@@ -126,7 +126,7 @@ ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
 endif
 
-$(pokecrystal_obj):         RGBASMFLAGS +=
+$(pokemon-cristall_obj):    RGBASMFLAGS +=
 $(pokecrystal11_obj):       RGBASMFLAGS += -D _CRYSTAL11
 $(pokecrystal_au_obj):      RGBASMFLAGS += -D _CRYSTAL11 -D _CRYSTAL_AU
 $(pokecrystal_debug_obj):   RGBASMFLAGS += -D _DEBUG
@@ -156,7 +156,7 @@ $1: $2 $$(shell tools/scan_includes $2) $(preinclude_deps) | rgbdscheck.o
 endef
 
 # Dependencies for shared objects objects
-$(foreach obj, $(pokecrystal_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
+$(foreach obj, $(pokemon-cristall_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
 $(foreach obj, $(pokecrystal11_obj), $(eval $(call DEP,$(obj),$(obj:11.o=.asm))))
 $(foreach obj, $(pokecrystal_au_obj), $(eval $(call DEP,$(obj),$(obj:_au.o=.asm))))
 $(foreach obj, $(pokecrystal_debug_obj), $(eval $(call DEP,$(obj),$(obj:_debug.o=.asm))))
@@ -166,8 +166,8 @@ $(foreach obj, $(pokecrystal11_vc_obj), $(eval $(call DEP,$(obj),$(obj:11_vc.o=.
 endif
 
 
-RGBFIXFLAGS += -Cjv -t PM_CRYSTAL -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
-pokecrystal.gbc:         RGBFIXFLAGS += -i BYTE -n 0
+RGBFIXFLAGS += -Cjv -t PM_CRISTALL -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokemon-cristall.gbc:    RGBFIXFLAGS += -i BYTE -n 0
 pokecrystal11.gbc:       RGBFIXFLAGS += -i BYTE -n 1
 pokecrystal_au.gbc:      RGBFIXFLAGS += -i BYTU -n 0
 pokecrystal_debug.gbc:   RGBFIXFLAGS += -i BYTE -n 0
