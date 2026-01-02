@@ -989,7 +989,7 @@ ProtectedByText:
 
 MirrorMoveFailedText:
 	text "El MIRI MOVIM."
-	next "ha fallat!"
+	line "ha fallat!"
 	prompt
 
 StoleText:

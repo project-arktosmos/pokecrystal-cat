@@ -148,7 +148,7 @@ _FourZerosInvalidText::
 
 _EnterPasscodeText::
 	text "Introdueix el CODI"
-	next "DE LA CARPETA."
+	line "DE LA CARPETA."
 	done
 
 _IncorrectPasscodeText::

@@ -957,7 +957,7 @@ _LearnedMoveText::
 
 _MoveAskForgetText::
 	text "Quin moviment s'ha"
-	next "d'oblidar?"
+	line "d'oblidar?"
 	done
 
 _StopLearningMoveText::
